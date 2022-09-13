@@ -1,0 +1,20 @@
+{
+  "name": "@lirx/mdi",
+  "version": "1.0.0",
+  "description": "Material Design Icons for @lirx/dom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lirx-js/material-design-icons"
+  },
+  "keywords": [],
+  "author": "Valentin Richard",
+  "license": "MIT",
+  "access": "public",
+  "sideEffects": false,
+  "dependencies": {},
+  "peerDependencies": {
+    "@lirx/core": "^1.0.0",
+    "@lirx/dom": "^1.0.0",
+    "tslib": "^2.4.0"
+  }
+}

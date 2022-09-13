@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-home-lock"
+ */
+
+export const IconHomeLockComponent = createIconComponent(
+  "icon-home-lock",
+  "<path d=\"M12 3 2 12h3v8h14v-8h3L12 3m0 6a3 3 0 0 1 3 3v1h1v4H8v-4h1v-1a3 3 0 0 1 3-3m0 2a1 1 0 0 0-1 1v1h2v-1c0-.5-.4-1-1-1Z\"/>",
+  
+);

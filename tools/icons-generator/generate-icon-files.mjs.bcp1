@@ -1,0 +1,305 @@
+import * as $fs from 'fs/promises';
+import * as $path from 'path';
+import { optimize } from 'svgo';
+// const { optimize } = require('svgo');
+
+const ROOT_PATH = $path.dirname(new URL(import.meta.url).pathname);
+const SVG_TO_OPTIMIZE_PATH = $path.join(ROOT_PATH, 'mdi-svg-repo', 'svg');
+const SVG_PATH = $path.join(ROOT_PATH, 'svg');
+
+const SRC_PATH = $path.join(ROOT_PATH, '..', '..', 'src');
+const SRC_ICONS_PATH = $path.join(SRC_PATH, 'icons');
+
+const LIMIT = 1;
+// const LIMIT = 1e6;
+
+/*----------------*/
+
+function dashCaseToPascalCase(
+  input,
+) {
+  return input.replace(/(?:^|-)(.)/g, (_, _char) => {
+    return _char.toUpperCase();
+  });
+}
+
+/*----------------*/
+
+
+function optimizeSVG(
+  sourcePath,
+  destinationPath,
+) {
+  return $fs.readFile(sourcePath, 'utf8')
+    .then((content) => {
+      return optimize(content, {
+        path: sourcePath,
+        multipass: true,
+      }).data;
+    })
+    .then((content) => {
+      // fix viewBox
+
+      // width
+      const widthMatch = (/\s*width="(\d+)"\s*/g).exec(content); // RegExpMatchArray | null
+      let width;
+
+      if (widthMatch !== null) {
+        content = content.slice(0, widthMatch.index)
+          + content.slice(widthMatch.index + widthMatch[0].length);
+        width = widthMatch[1];
+      }
+
+      // height
+      const heightMatch = (/\s*height="(\d+)"\s*/g).exec(content); // RegExpMatchArray | null
+      let height;
+
+      if (heightMatch !== null) {
+        content = content.slice(0, heightMatch.index)
+          + content.slice(heightMatch.index + heightMatch[0].length);
+        height = heightMatch[1];
+      }
+
+      // viewbox
+      const viewBoxMatch = (/viewBox="([^"]+)"/g).exec(content); // RegExpMatchArray | null
+      if (viewBoxMatch === null) {
+        const svgStart = '<svg xmlns="http://www.w3.org/2000/svg"';
+        if (!content.startsWith(svgStart)) {
+          throw new Error(`Invalid svg start`);
+        }
+        const viewBox = `0 0 ${width} ${height}`;
+        content = content.slice(0, svgStart.length)
+          + ` viewBox="${viewBox}"`
+          + content.slice(svgStart.length);
+      }
+
+      return content;
+    })
+    .then((content) => {
+      return $fs.writeFile(destinationPath, content);
+    });
+}
+
+function optimizeSVGFolder(
+  sourcePath,
+  destinationPath,
+) {
+  return $fs.readdir(sourcePath)
+    .then((fileNames) => {
+      return Promise.all(
+        fileNames
+          .slice(0, LIMIT)
+          .map((fileName) => {
+            const sourceFilePath = $path.join(sourcePath, fileName);
+            const destinationFilePath = $path.join(destinationPath, fileName);
+            return optimizeSVG(
+              sourceFilePath,
+              destinationFilePath,
+            );
+          }),
+      );
+    });
+}
+
+function importMDI_SVG_REPO(
+  destinationPath,
+) {
+  return optimizeSVGFolder(
+    SVG_TO_OPTIMIZE_PATH,
+    destinationPath,
+  );
+}
+
+function convertSVGToLiRXDOMComponent(
+  name, // dash-case
+  sourcePath,
+  destinationPath,
+) {
+  return $fs.readFile(sourcePath, 'utf8')
+    .then((content) => {
+      const componentTagName = `mat-icon-${name}`;
+      const componentName = `MatIcon${dashCaseToPascalCase(name)}Component`;
+
+      const ts = `
+import { Component } from '@lirx/dom';
+import { MAT_ICON_STYLE_CONSTANT } from '../mat-icon.style.constant';
+import { setSVGMaskImageAsync } from '../set-mask-image';
+
+/**
+ * Component: ${JSON.stringify(componentTagName)}
+ */
+
+@Component({
+  name: ${JSON.stringify(componentTagName)},
+  styles: [MAT_ICON_STYLE_CONSTANT],
+})
+export class ${componentName} extends HTMLElement {
+  constructor() {
+    super();
+    setSVGMaskImageAsync(this, ${JSON.stringify(content)});
+  }
+}
+`;
+
+      return $fs.writeFile(destinationPath, ts);
+    });
+}
+
+
+function generateLiRXDOMComponentsDemoComponent(
+  tsFilePaths,
+  destinationPath,
+) {
+  const names = tsFilePaths
+    .map((tsFilePath) => {
+      return $path.basename(tsFilePath, '.component.ts');
+    });
+
+  const customElementsImport = names
+    .map((name) => {
+      const componentName = `MatIcon${dashCaseToPascalCase(name)}Component`;
+      return `import { ${componentName} } from './${name}.component';`;
+    })
+    .join('\n');
+
+  const html = names
+    .map((name) => {
+      const componentTagName = `mat-icon-${name}`;
+      return `<${componentTagName}></${componentTagName}>`;
+    })
+    .join('\n');
+
+  const customElements = names
+    .map((name) => {
+      const componentName = `MatIcon${dashCaseToPascalCase(name)}Component`;
+      return `${componentName}`;
+    })
+    .join(',\n');
+
+  const ts = `
+import { compileReactiveHTMLAsComponentTemplate, Component } from '@lirx/dom';
+${customElementsImport}
+
+/**
+ * Component: 'mat-icons-demo'
+ */
+
+@Component({
+  name: 'mat-icons-demo',
+  template: compileReactiveHTMLAsComponentTemplate({
+    html: ${JSON.stringify(html)},
+    customElements: [
+      ${customElements}
+    ],
+  }),
+})
+export class MatIconsDemoComponent extends HTMLElement {
+}
+`;
+
+  const destinationFilePath = $path.join(destinationPath, `mat-icons-demo.component.ts`);
+  return $fs.writeFile(destinationFilePath, ts);
+}
+
+function generateLiRXDOMComponentsListFile(
+  tsFilePaths,
+  destinationPath,
+) {
+  const data = tsFilePaths
+    .map((tsFilePath) => {
+      const name = $path.basename(tsFilePath, '.component.ts');
+      const fileName = `${name}.component`;
+      const componentTagName = `mat-icon-${name}`;
+      const componentName = `MatIcon${dashCaseToPascalCase(name)}Component`;
+
+      return [
+        fileName,
+        componentTagName,
+        componentName,
+      ];
+    });
+
+  const ts = `
+export type IMatIconsListItem = [
+  fileName: string,
+  componentTagName: string,
+  componentName: string,
+];
+
+export const MAT_ICONS_LIST: IMatIconsListItem[] = ${JSON.stringify(data, null, 2)};
+`;
+
+  const destinationFilePath = $path.join(destinationPath, `mat-icons-list.constant.ts`);
+  return $fs.writeFile(destinationFilePath, ts);
+}
+
+function generateLiRXDOMComponentsIndex(
+  tsFilePaths,
+  destinationPath,
+) {
+  const ts = tsFilePaths
+      .map((tsFilePath) => {
+        return `export * from './${$path.basename(tsFilePath, '.ts')}';`;
+      })
+      .join('\n') + '\n\n'
+    // + `export * from './mat-icons-demo.component';` + '\n';
+    + `export * from './mat-icons-list.constant';` + '\n';
+
+  const destinationFilePath = $path.join(destinationPath, `index.ts`);
+  return $fs.writeFile(destinationFilePath, ts);
+}
+
+function convertSVGFolderToLiRXDOMComponents(
+  sourcePath,
+  destinationPath,
+) {
+  return $fs.readdir(sourcePath)
+    .then((fileNames) => {
+      return Promise.all(
+        fileNames
+          .map((fileName) => {
+            const name = fileName.slice(0, -4);
+            const sourceFilePath = $path.join(sourcePath, fileName);
+            const destinationFilePath = $path.join(destinationPath, `${name}.component.ts`);
+            return convertSVGToLiRXDOMComponent(
+              name,
+              sourceFilePath,
+              destinationFilePath,
+            )
+              .then(() => {
+                return destinationFilePath;
+              });
+          }),
+      )
+        .then((tsFilePaths) => {
+          console.log('DONE => ', tsFilePaths.length);
+          return Promise.all([
+            generateLiRXDOMComponentsListFile(
+              tsFilePaths,
+              destinationPath,
+            ),
+            generateLiRXDOMComponentsIndex(
+              tsFilePaths,
+              destinationPath,
+            ),
+          ]);
+        });
+    });
+}
+
+
+async function main() {
+  await $fs.rm(SVG_PATH, { recursive: true });
+  await $fs.mkdir(SVG_PATH, { recursive: true });
+  await importMDI_SVG_REPO(SVG_PATH);
+
+  await $fs.rm(SRC_ICONS_PATH, { recursive: true });
+  await $fs.mkdir(SRC_ICONS_PATH, { recursive: true });
+  await convertSVGFolderToLiRXDOMComponents(
+    SVG_PATH,
+    SRC_ICONS_PATH,
+  );
+}
+
+
+main();

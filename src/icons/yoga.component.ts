@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-yoga"
+ */
+
+export const IconYogaComponent = createIconComponent(
+  "icon-yoga",
+  "<path d=\"M13 2a2 2 0 1 0 0 4c1.11 0 2-.89 2-2a2 2 0 0 0-2-2M4 7v2h6v6l-5.07 5.07 1.41 1.43 6.72-6.73L17 17.13V21h2v-4.43c0-.36-.18-.68-.5-.86L15 13.6V9h6V7H4Z\"/>",
+  
+);

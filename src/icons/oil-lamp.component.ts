@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-oil-lamp"
+ */
+
+export const IconOilLampComponent = createIconComponent(
+  "icon-oil-lamp",
+  "<path d=\"M5 20h11v2H5m6-17h-1a2 2 0 0 0-2 2h5a2 2 0 0 0-2-2m5 3h6a2 2 0 0 1-2 2h-1a4 4 0 0 0-4 4v1a4 4 0 0 1-4 4h-1a4 4 0 0 1-4-4H4a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2m2 2H4v3h2m13-8a2 2 0 0 1 2 2h1a2.9 2.9 0 0 0-3-3 2 2 0 0 1-2-2h-1a2.9 2.9 0 0 0 3 3\"/>",
+  
+);

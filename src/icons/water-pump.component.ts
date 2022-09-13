@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-water-pump"
+ */
+
+export const IconWaterPumpComponent = createIconComponent(
+  "icon-water-pump",
+  "<path d=\"M19 14.5s2 2.17 2 3.5a2 2 0 0 1-2 2 2 2 0 0 1-2-2c0-1.33 2-3.5 2-3.5M5 18V9a2 2 0 0 1-2-2 2 2 0 0 1 2-2V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1h8a2 2 0 0 1 2 2v4a1 1 0 0 1 1 1 1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1 1 1 0 0 1 1-1V9h-6v9h1a2 2 0 0 1 2 2v2H2v-2a2 2 0 0 1 2-2h1Z\"/>",
+  
+);

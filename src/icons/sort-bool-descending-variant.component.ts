@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-sort-bool-descending-variant"
+ */
+
+export const IconSortBoolDescendingVariantComponent = createIconComponent(
+  "icon-sort-bool-descending-variant",
+  "<path d=\"M19 7h3l-4-4-4 4h3v14h2M5 13c-1.11 0-2 .89-2 2v4c0 1.11.89 2 2 2h4c1.11 0 2-.89 2-2v-4c0-1.11-.89-2-2-2m.2 1.5 1.06 1.05-3.99 3.95-2.53-2.55 1.07-1.05 1.47 1.49M5 3c-1.11 0-2 .89-2 2v4c0 1.11.89 2 2 2h4c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2M5 5h4v4H5Z\"/>",
+  
+);
