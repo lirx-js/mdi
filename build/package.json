@@ -1,6 +1,6 @@
 {
   "name": "ts-lib-seed",
-  "version": "1.2.1-with-tslib",
+  "version": "1.2.7",
   "description": "Seed to build a library",
   "main": "index.js",
   "scripts": {
@@ -22,16 +22,16 @@
     "build:package:rename:cjs": "echo 'build:package:rename:cjs' && node tools/package/rename/rename-cjs.js",
     "build:package:resolve:cjs": "echo 'build:package:resolve:cjs' && node tools/package/resolve/resolve-node-modules.js --cjs",
     "_________________DEV_________________": "",
-    "dev:package": "yarn run clean:dist && yarn run dev:package:tcs",
-    "dev:package:tcs": "yarn run dev:package:tcs:module & yarn run dev:package:tcs:cjs",
-    "dev:package:tcs:module": "yarn run dev:package:tcs:module:linux",
-    "dev:package:tcs:module:linux": "tsc-watch -p tsconfig/tsconfig.build.package.module.json --onSuccess 'yarn run dev:package:tcs:module:onsuccess'",
-    "dev:package:tcs:module:windows": "tsc-watch -p tsconfig/tsconfig.build.package.module.json --onSuccess \\\"yarn run dev:package:tcs:module:onsuccess\\\"",
-    "dev:package:tcs:module:onsuccess": "yarn run build:package:rename:mjs && yarn run build:package:resolve:mjs && yarn run assemble:package",
-    "dev:package:tcs:cjs": "yarn run dev:package:tcs:cjs:linux",
-    "dev:package:tcs:cjs:windows": "tsc-watch -p tsconfig/tsconfig.build.package.cjs.json --onSuccess \\\"yarn run dev:package:tcs:cjs:onsuccess\\\"",
-    "dev:package:tcs:cjs:linux": "tsc-watch -p tsconfig/tsconfig.build.package.cjs.json --onSuccess 'yarn run dev:package:tcs:cjs:onsuccess'",
-    "dev:package:tcs:cjs:onsuccess": "yarn run build:package:rename:cjs",
+    "dev:package": "echo 'dev:package' && yarn run clean:dist && yarn run dev:package:tcs",
+    "dev:package:tcs": "echo 'dev:package:tcs' && yarn run dev:package:tcs:module & yarn run dev:package:tcs:cjs",
+    "dev:package:tcs:module": "echo 'dev:package:tcs:module' && yarn run dev:package:tcs:module:linux",
+    "dev:package:tcs:module:linux": "echo 'dev:package:tcs:module:linux' && tsc-watch -p tsconfig/tsconfig.build.package.module.json --onSuccess 'yarn run dev:package:tcs:module:onsuccess'",
+    "dev:package:tcs:module:windows": "echo 'dev:package:tcs:module:windows' && tsc-watch -p tsconfig/tsconfig.build.package.module.json --onSuccess \\\"yarn run dev:package:tcs:module:onsuccess\\\"",
+    "dev:package:tcs:module:onsuccess": "echo 'dev:package:tcs:module:onsuccess' && yarn run build:package:rename:mjs && yarn run build:package:resolve:mjs && yarn run assemble:package",
+    "dev:package:tcs:cjs": "echo 'dev:package:tcs:cjs' && yarn run dev:package:tcs:cjs:linux",
+    "dev:package:tcs:cjs:windows": "echo 'dev:package:tcs:cjs:windows' && tsc-watch -p tsconfig/tsconfig.build.package.cjs.json --onSuccess \\\"yarn run dev:package:tcs:cjs:onsuccess\\\"",
+    "dev:package:tcs:cjs:linux": "echo 'dev:package:tcs:cjs:linux' && tsc-watch -p tsconfig/tsconfig.build.package.cjs.json --onSuccess 'yarn run dev:package:tcs:cjs:onsuccess'",
+    "dev:package:tcs:cjs:onsuccess": "echo 'dev:package:tcs:cjs:onsuccess' && yarn run build:package:rename:cjs",
     "_________________INDEX_FILES_________________": "",
     "comment:index-files": "node tools/index/comment-index-files.js",
     "uncomment:index-files": "node tools/index/comment-index-files.js --uncomment",
@@ -54,14 +54,17 @@
   "license": "MIT",
   "access": "public",
   "devDependencies": {
-    "acorn": "^8.7.0",
+    "acorn": "^8.8.0",
     "acorn-walk": "^8.2.0",
-    "astring": "^1.8.1",
-    "markdown-toc": "^1.2.0",
+    "astring": "^1.8.3",
+    "cssnano": "^5.1.13",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.9",
     "shx": "^0.3.4",
     "tsc-watch": "^5.0.3",
-    "tslib": "^2.3.1",
-    "typescript": "4.6.3"
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.3"
 }
