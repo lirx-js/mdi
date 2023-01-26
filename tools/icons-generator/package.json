@@ -4,16 +4,16 @@
   "description": "Material Design Icons for @lirx/dom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lirx-js/material-design-icons"
+    "url": "https://github.com/lirx-js/mdi"
   },
   "keywords": [],
   "author": "Valentin Richard",
   "license": "MIT",
   "access": "public",
   "scripts": {
-    "build": "yarn run clear && yarn run clone:repo && yarn run generate:icon-files && yarn run clear:repo-and-svg",
-    "clear": "yarn run clear:repo-and-svg && yarn run clear:icons",
-    "clear:repo-and-svg": "yarn run clear:repo && yarn run clear:svg",
+    "build": "yarn run clear:repo && yarn run clone:repo && yarn run build:fast && yarn run clear:repo",
+    "build:fast": "yarn run clear:fast && yarn run generate:icon-files && yarn run clear:svg",
+    "clear:fast": "yarn run clear:svg && yarn run clear:icons",
     "clear:icons": "echo 'clear:icons' && rm -rf ../../src/icons",
     "clear:repo": "echo 'clear:repo' && rm -rf mdi-svg-repo",
     "clear:svg": "echo 'clear:svg' && rm -rf svg",

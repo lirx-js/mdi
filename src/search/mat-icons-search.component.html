@@ -1,0 +1,62 @@
+<div class="input-container">
+  <input
+    [value]="$.inputValue$"
+    (input)="(event) => $.$inputValue(event.target.value)"
+    placeholder="Search..."
+  />
+
+  <div class="icons-count-container">
+    {{ $.count$ }} / {{ $.total$ }}
+  </div>
+</div>
+
+
+<div class="icons-container">
+  <div
+    class="icon-container"
+    *for="let icon of $.icons$"
+  >
+    <div class="illustration-container">
+      <div class="svg-container">
+        <rx-script>
+          icon.$containerRef(node);
+        </rx-script>
+      </div>
+    </div>
+
+    <div class="icon-component-tag-name">
+      &lt;{{ icon.name }}&gt;
+    </div>
+    <div class="icon-component-name">
+      {{ icon.componentName }}
+    </div>
+
+    <div class="icon-aliases">
+      <div
+        class="icon-alias"
+        *for="let alias of icon.aliases"
+      >
+        {{ alias }}
+      </div>
+    </div>
+
+    <div class="icon-tags">
+      <div
+        class="icon-tag"
+        *for="let tag of icon.tags"
+      >
+        {{ tag }}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div
+  class="load-more-button"
+  *if="$.isLoadMoreButtonVisible$"
+  (click)="$.$onClickLoadMoreButton"
+>
+  Load more
+</div>
+

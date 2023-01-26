@@ -13,8 +13,8 @@
   "sideEffects": false,
   "dependencies": {},
   "peerDependencies": {
-    "@lirx/core": "^1.0.0",
-    "@lirx/dom": "^1.0.0",
+    "@lirx/core": "^1.2.0",
+    "@lirx/dom": "^0.8.0",
     "tslib": "^2.4.0"
   }
 }

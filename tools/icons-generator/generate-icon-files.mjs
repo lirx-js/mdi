@@ -1,11 +1,16 @@
 import * as $fs from 'fs/promises';
 import * as $path from 'path';
 import { optimize } from 'svgo';
-// const { optimize } = require('svgo');
+
+/** PATHS **/
 
 const ROOT_PATH = $path.dirname(new URL(import.meta.url).pathname);
-const SVG_TO_OPTIMIZE_PATH = $path.join(ROOT_PATH, 'mdi-svg-repo', 'svg');
+const REPOSITORY_PATH = $path.join(ROOT_PATH, 'mdi-svg-repo');
+
+const SVG_TO_OPTIMIZE_PATH = $path.join(REPOSITORY_PATH, 'svg');
 const SVG_PATH = $path.join(ROOT_PATH, 'svg');
+
+const METADATA_PATH = $path.join(REPOSITORY_PATH, 'meta.json');
 
 const SRC_PATH = $path.join(ROOT_PATH, '..', '..', 'src');
 const SRC_ICONS_PATH = $path.join(SRC_PATH, 'icons');
@@ -13,7 +18,7 @@ const SRC_ICONS_PATH = $path.join(SRC_PATH, 'icons');
 // const LIMIT = 10;
 const LIMIT = 1e6;
 
-/*----------------*/
+/** FUNCTIONS **/
 
 function dashCaseToPascalCase(
   input,
@@ -35,8 +40,19 @@ function getComponentName(
   return `Icon${dashCaseToPascalCase(name)}Component`;
 }
 
-/*----------------*/
 
+function createEmptyDirectory(
+  path,
+) {
+  return $fs.rm(path, { recursive: true })
+    .catch(() => {
+    })
+    .then(() => {
+      return $fs.mkdir(path, { recursive: true });
+    });
+}
+
+/** SVG **/
 
 function optimizeSVG(
   sourcePath,
@@ -113,7 +129,7 @@ function optimizeSVGFolder(
     });
 }
 
-function importMDI_SVG_REPO(
+function import_MDI_SVG_REPO(
   destinationPath,
 ) {
   return optimizeSVGFolder(
@@ -166,94 +182,91 @@ export const ${componentName} = createIconComponent(
     });
 }
 
+/** METADATA **/
 
-function generateLiRXDOMComponentsDemoComponent(
+let cachedMetadataPromise;
+
+function getMetadata() {
+  if (cachedMetadataPromise === void 0) {
+    cachedMetadataPromise = $fs.readFile(METADATA_PATH, 'utf8')
+      .then((content) => {
+        return JSON.parse(content);
+      })
+      .then((metadata) => {
+        return new Map(
+          metadata.map((item) => {
+            return [
+              item.name,
+              item,
+            ];
+          }),
+        );
+      });
+  }
+
+  return cachedMetadataPromise;
+}
+
+function generateMetadataFiles(
   tsFilePaths,
   destinationPath,
 ) {
-  const names = tsFilePaths
-    .map((tsFilePath) => {
-      return $path.basename(tsFilePath, '.component.ts');
-    });
+  return getMetadata()
+    .then((metadata) => {
+      const data = tsFilePaths
+        .map((tsFilePath) => {
+          const name = $path.basename(tsFilePath, '.component.ts');
+          // const fileName = `${name}.component`;
+          // const componentTagName = getComponentTagName(name);
+          const componentName = getComponentName(name);
 
-  const customElementsImport = names
-    .map((name) => {
-      const componentName = getComponentName(name);
-      return `import { ${componentName} } from './${name}.component';`;
-    })
-    .join('\n');
+          const iconMetadata = metadata.get(name);
 
-  const html = names
-    .map((name) => {
-      const componentTagName = getComponentTagName(name);
-      return `<${componentTagName}></${componentTagName}>`;
-    })
-    .join('\n');
+          if (iconMetadata === void 0) {
+            throw new Error(`Missing metadata for ${name}`);
+          }
 
-  const customElements = names
-    .map((name) => {
-      const componentName = getComponentName(name);
-      return `${componentName}`;
-    })
-    .join(',\n');
+          return [
+            name,
+            {
+              ...iconMetadata,
+              componentName,
+            },
+          ];
+        });
 
-  const ts = `
-import { createComponent, compileReactiveHTMLAsComponentTemplate } from '@lirx/dom';
-${customElementsImport}
 
-/**
- * Component: 'mat-icons-demo'
- */
+      const ts = `
+import { IMatIconMetadata, IMatIconMetadataMap } from '../mat-icon-metadata.type';
 
-interface IMatIconsDemoComponentConfig {
-}
-
-export const MatIconsDemoComponent = createComponent<IMatIconsDemoComponentConfig>({
-  name:  'mat-icons-demo',
-  template: compileReactiveHTMLAsComponentTemplate({
-    html: ${JSON.stringify(html)},
-    customElements: [
-      ${customElements}
-    ],
-  }),
-});
+export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconMetadata>(${JSON.stringify(data, null, 2)});
 `;
 
-  const destinationFilePath = $path.join(destinationPath, `mat-icons-demo.component.ts`);
-  return $fs.writeFile(destinationFilePath, ts);
+      const destinationFilePath = $path.join(destinationPath, `mat-icons-metadata.constant.ts`);
+      return $fs.writeFile(destinationFilePath, ts);
+    });
 }
 
-function generateLiRXDOMComponentsListFile(
+/** ICONS INDEX **/
+
+function generateIconsList(
   tsFilePaths,
   destinationPath,
 ) {
   const data = tsFilePaths
     .map((tsFilePath) => {
-      const name = $path.basename(tsFilePath, '.component.ts');
-      const fileName = `${name}.component`;
-      const componentTagName = getComponentTagName(name);
-      const componentName = getComponentName(name);
-
-      return [
-        fileName,
-        componentTagName,
-        componentName,
-      ];
+      return $path.basename(tsFilePath, '.component.ts');
     });
 
   const ts = `
-export type IMatIconsListItem = [
-  fileName: string,
-  componentTagName: string,
-  componentName: string,
-];
-
-export const MAT_ICONS_LIST: IMatIconsListItem[] = ${JSON.stringify(data, null, 2)};
+export const MAT_ICONS_LIST: string[] = ${JSON.stringify(data, null, 2)};
 `;
 
   const destinationFilePath = $path.join(destinationPath, `mat-icons-list.constant.ts`);
   return $fs.writeFile(destinationFilePath, ts);
 }
+
+/** ICONS INDEX **/
 
 function generateLiRXDOMComponentsIndex(
   tsFilePaths,
@@ -265,11 +278,16 @@ function generateLiRXDOMComponentsIndex(
       })
       .join('\n') + '\n\n'
     // + `export * from './mat-icons-demo.component';` + '\n';
-    + `export * from './mat-icons-list.constant';` + '\n';
+    // + `export * from './mat-icons-list.constant';` + '\n'
+    + `export * from './mat-icons-metadata.constant';` + '\n'
+  ;
 
   const destinationFilePath = $path.join(destinationPath, `index.ts`);
   return $fs.writeFile(destinationFilePath, ts);
 }
+
+
+/** BUILD **/
 
 function convertSVGFolderToLiRXDOMComponents(
   sourcePath,
@@ -296,37 +314,28 @@ function convertSVGFolderToLiRXDOMComponents(
         .then((tsFilePaths) => {
           console.log('DONE => ', tsFilePaths.length);
           return Promise.all([
-            generateLiRXDOMComponentsListFile(
+            generateMetadataFiles(
               tsFilePaths,
               destinationPath,
             ),
+            // generateIconsList(
+            //   tsFilePaths,
+            //   destinationPath,
+            // ),
             generateLiRXDOMComponentsIndex(
               tsFilePaths,
               destinationPath,
             ),
-            // generateLiRXDOMComponentsDemoComponent(
-            //   tsFilePaths,
-            //   destinationPath,
-            // ),
           ]);
         });
     });
 }
 
-function createEmptyDirectory(
-  path,
-) {
-  return $fs.rm(path, { recursive: true })
-    .catch(() => {
-    })
-    .then(() => {
-      return $fs.mkdir(path, { recursive: true });
-    });
-}
+/*---*/
 
 async function main() {
   await createEmptyDirectory(SVG_PATH);
-  await importMDI_SVG_REPO(SVG_PATH);
+  await import_MDI_SVG_REPO(SVG_PATH);
 
   await createEmptyDirectory(SRC_ICONS_PATH);
   await convertSVGFolderToLiRXDOMComponents(

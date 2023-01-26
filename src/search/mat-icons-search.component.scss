@@ -1,0 +1,132 @@
+
+:host {
+  display: block;
+  overflow: hidden;
+
+  & > .input-container {
+    $height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    & > * {
+      display: inline-block;
+      vertical-align: top;
+      height: $height;
+    }
+
+    & > input {
+      padding: 0 8px;
+      border: 1px solid #666;
+      border-radius: 4px;
+      color: #333;
+    }
+
+    & > .icons-count-container {
+      line-height: $height;
+      margin-left: 15px;
+      color: #333;
+    }
+  }
+
+  & > .icons-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 20px;
+
+    & > .icon-container {
+      display: inline-block;
+      vertical-align: top;
+      width: 300px;
+      //border: 1px solid black;
+      //transform: translateZ(0);
+
+      & > .illustration-container {
+        $icon-svg-size: 60px;
+        margin: 0 auto;
+        width: $icon-svg-size;
+        height: $icon-svg-size;
+
+        & > .svg-container {
+          width: 100%;
+          height: 100%;
+
+          & > * {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      & > .icon-component-tag-name,
+      & > .icon-component-name {
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 14px;
+      }
+
+      & > .icon-component-tag-name {
+        padding-top: 15px;
+        //color: #333;
+        color: #c37807;
+      }
+
+      & > .icon-component-name {
+        padding-top: 5px;
+        //color: #333;
+        color: #350264;
+      }
+
+      & > .icon-aliases,
+      & > .icon-tags {
+        padding-top: 4px;
+        text-align: center;
+
+        & > * {
+          display: inline-block;
+          vertical-align: top;
+          padding: 2px 3px;
+
+          &:not(:last-child) {
+            &::after {
+              display: inline-block;
+              vertical-align: top;
+              content: ', ';
+            }
+          }
+        }
+      }
+
+      & > .icon-aliases {
+        color: #666;
+        font-size: 12px;
+      }
+
+      & > .icon-tags {
+        color: #888;
+        font-size: 12px;
+      }
+    }
+
+  }
+
+  & > .load-more-button {
+    margin: 20px auto;
+    text-align: center;
+    background-color: #eaeaea;
+    border: 1px solid #b4b4b4;
+    padding: 5px 8px;
+    border-radius: 4px;
+    width: 80%;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+  }
+}

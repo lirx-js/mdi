@@ -10,21 +10,25 @@ export type IIconComponentSize =
 export interface IIconComponentConfig {
   element: SVGSVGElement;
   inputs: [
-    ['size', number | string | undefined],
+    ['size', IIconComponentSize],
+    ['color', string],
   ],
 }
+
+export type IIconComponent = IComponent<IIconComponentConfig>;
 
 export function createIconComponent(
   name: string,
   svgContent: string,
   viewBox: string = '0 0 24 24',
-): IComponent<IIconComponentConfig> {
+): IIconComponent {
   return createComponent<IIconComponentConfig>({
     name,
     extends: 'svg',
     namespaceURI: SVG_NAMESPACE_URI_CONSTANT,
     inputs: [
       ['size'],
+      ['color'],
     ],
     init: (node: VirtualCustomElementNode<IIconComponentConfig>): void => {
       const element: SVGSVGElement = node.elementNode;
@@ -55,6 +59,12 @@ export function createIconComponent(
           element.setAttribute('width', size);
           element.setAttribute('height', size);
         }
+      });
+
+      const color$ = node.inputs.get$('color');
+
+      color$((value: string): void => {
+        element.setAttribute('fill', value);
       });
     },
   });
