@@ -1,11 +1,9 @@
 import {
-  createMulticastReplayLastSource,
   debounceFrame$$$,
   debounceTime$$,
   functionI$$,
   IObservable,
   IObserver,
-  ISource,
   let$$,
   map$$,
   merge,
@@ -31,7 +29,9 @@ import html from './mat-icons-search.component.html?raw';
 // @ts-ignore
 import style from './mat-icons-search.component.scss?inline';
 
-/** COMPONENT **/
+/**
+ * COMPONENT: 'mat-icons-search'
+ **/
 
 interface IIcon extends IMatIconMetadata {
   readonly $containerRef: IObserver<VirtualDOMNode>;
@@ -53,7 +53,7 @@ export interface IMatIconsSearchComponentConfig {
 }
 
 export const MatIconsSearchComponent = createComponent<IMatIconsSearchComponentConfig>({
-  name: 'mat-icons-Search',
+  name: 'mat-icons-search',
   template: compileReactiveHTMLAsComponentTemplate({
     html,
   }),
