@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-upload-box"
+ */
+
+export const IconUploadBoxComponent = createIconComponent(
+  "icon-upload-box",
+  "<path d=\"M5 3h14a2 2 0 0 1 2 2v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2m11 14v-2H8v2h8m0-6-4-4-4 4h2.5v3h3v-3H16Z\"/>",
+  
+);

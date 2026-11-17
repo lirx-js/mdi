@@ -11,10 +11,16 @@
   "license": "MIT",
   "access": "public",
   "sideEffects": false,
-  "dependencies": {},
-  "peerDependencies": {
-    "@lirx/core": "^1.2.0",
-    "@lirx/dom": "^0.8.0",
-    "tslib": "^2.4.0"
-  }
+  "dependencies": {
+    "@lirx/core": "latest",
+    "@lirx/dom": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  },
+  "localDependencies": [
+    "@lirx/core",
+    "@lirx/dom"
+  ],
+  "packageManager": "yarn@4.1.0"
 }

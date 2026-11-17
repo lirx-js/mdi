@@ -7,6 +7,6 @@ import { createIconComponent } from '../create-icon-component';
 
 export const IconLogoutComponent = createIconComponent(
   "icon-logout",
-  "<path d=\"M16 17v-3H9v-4h7V7l5 5-5 5M14 2a2 2 0 0 1 2 2v2h-2V4H5v16h9v-2h2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9Z\"/>",
+  "<path d=\"m17 7-1.41 1.41L18.17 11H8v2h10.17l-2.58 2.58L17 17l5-5M4 5h8V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8v-2H4V5Z\"/>",
   
 );

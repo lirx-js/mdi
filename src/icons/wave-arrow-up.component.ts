@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-wave-arrow-up"
+ */
+
+export const IconWaveArrowUpComponent = createIconComponent(
+  "icon-wave-arrow-up",
+  "<path d=\"M20 7h2v2h-2c-1.38 0-2.74-.35-4-1-2.5 1.3-5.5 1.3-8 0-1.26.65-2.63 1-4 1H2V7h2c1.39 0 2.78-.47 4-1.33 2.44 1.71 5.56 1.71 8 0C17.22 6.53 18.61 7 20 7m-8 4 4 4h-3v7h-2v-7H8l4-4Z\"/>",
+  
+);

@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-receipt-text-send"
+ */
+
+export const IconReceiptTextSendComponent = createIconComponent(
+  "icon-receipt-text-send",
+  "<path d=\"M4.5 20.5 3 22V2l1.5 1.5L6 2l1.5 1.5L9 2l1.5 1.5L12 2l1.5 1.5L15 2l1.5 1.5L18 2l1.5 1.5L21 2v12.26l-3-1.5V11H6v2h6v2H6v2h6v5l-1.5-1.5L9 22l-1.5-1.5L6 22l-1.5-1.5M6 7v2h12V7H6m8 6 10 5-10 5v-4l4-1-4-1v-4Z\"/>",
+  
+);

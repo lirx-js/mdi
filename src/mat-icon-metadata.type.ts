@@ -1,18 +1,18 @@
 
 export interface IMatIconMetadata {
-  id: string;
-  baseIconId: string;
-  name: string;
-  codepoint: string;
-  aliases: string[];
-  styles: string[];
-  version: string;
-  deprecated: boolean;
-  tags: string[];
-  author: string;
+  readonly id: string;
+  readonly baseIconId: string;
+  readonly name: string;
+  readonly codepoint: string;
+  readonly aliases: string[];
+  readonly styles: string[];
+  readonly version: string;
+  readonly deprecated: boolean;
+  readonly tags: string[];
+  readonly author: string;
   // extra
-  componentName: string;
+  readonly componentName: string;
 }
 
 
-export type IMatIconMetadataMap = Map<string, IMatIconMetadata>;
+export type IMatIconMetadataMap = ReadonlyMap<string, IMatIconMetadata>;

@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-upload-circle"
+ */
+
+export const IconUploadCircleComponent = createIconComponent(
+  "icon-upload-circle",
+  "<path d=\"M12 2c5.5 0 10 4.5 10 10s-4.5 10-10 10S2 17.5 2 12 6.5 2 12 2Zm4 15v-2H8v2h8Zm0-7-4-4-4 4h2.5v4h3v-4H16Z\"/>",
+  
+);

@@ -3,7 +3,7 @@
 ![NPM](https://img.shields.io/npm/l/@lirx/mdi.svg)
 ![npm type definitions](https://img.shields.io/npm/types/@lirx/mdi.svg)
 
-## lirx/mdi
+## @lirx/mdi
 
 Generates icons from [MaterialDesign](https://github.com/Templarian/MaterialDesign) to [@lirx/dom](https://github.com/lirx-js/dom) components.
 

@@ -22,5 +22,6 @@
   },
   "dependencies": {
     "svgo": "^2.8.0"
-  }
+  },
+  "packageManager": "yarn@4.1.0"
 }

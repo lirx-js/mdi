@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-invoice-text-arrow-left"
+ */
+
+export const IconInvoiceTextArrowLeftComponent = createIconComponent(
+  "icon-invoice-text-arrow-left",
+  "<path d=\"M3 22V3h18v10.34A6.005 6.005 0 0 0 13 19c0 .65.1 1.28.3 1.86L12 20l-3 2-3-2-3 2M17 9V7H7v2h10m-2 4v-2H7v2h8m3 5v-2l-3 3 3 3v-2h4v-2h-4Z\"/>",
+  
+);

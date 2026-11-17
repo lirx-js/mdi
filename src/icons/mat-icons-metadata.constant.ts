@@ -553,6 +553,50 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "account-box-edit-outline",
+    {
+      "id": "38F968FA-3BDD-48B3-94DF-601B570D4A2D",
+      "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
+      "name": "account-box-edit-outline",
+      "codepoint": "F1CC8",
+      "aliases": [],
+      "styles": [
+        "account",
+        "edit",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconAccountBoxEditOutlineComponent"
+    }
+  ],
+  [
+    "account-box-minus-outline",
+    {
+      "id": "F92A28DC-B4C9-4656-A514-2569D21D871D",
+      "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
+      "name": "account-box-minus-outline",
+      "codepoint": "F1CC9",
+      "aliases": [],
+      "styles": [
+        "account",
+        "minus",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconAccountBoxMinusOutlineComponent"
+    }
+  ],
+  [
     "account-box-multiple-outline",
     {
       "id": "31302999-CD15-4F1F-A5D2-374D90F15099",
@@ -627,6 +671,28 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Google",
       "componentName": "IconAccountBoxOutlineComponent"
+    }
+  ],
+  [
+    "account-box-plus-outline",
+    {
+      "id": "9B343856-3835-4B00-AEB5-B7CC36DFA672",
+      "baseIconId": "E76EC23F-AB71-49B3-9173-841544527A20",
+      "name": "account-box-plus-outline",
+      "codepoint": "F1CCA",
+      "aliases": [],
+      "styles": [
+        "account",
+        "outline",
+        "plus"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconAccountBoxPlusOutlineComponent"
     }
   ],
   [
@@ -1317,6 +1383,78 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "account-file-outline",
+    {
+      "id": "6C725BE6-E00C-4CBA-8495-2CFC066C1DBE",
+      "baseIconId": "6C725BE6-E00C-4CBA-8495-2CFC066C1DBE",
+      "name": "account-file-outline",
+      "codepoint": "F1CA8",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Contributors",
+      "componentName": "IconAccountFileOutlineComponent"
+    }
+  ],
+  [
+    "account-file-text-outline",
+    {
+      "id": "91B63E1C-736B-4892-858D-772B5D197DC8",
+      "baseIconId": "91B63E1C-736B-4892-858D-772B5D197DC8",
+      "name": "account-file-text-outline",
+      "codepoint": "F1CAA",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Contributors",
+      "componentName": "IconAccountFileTextOutlineComponent"
+    }
+  ],
+  [
+    "account-file-text",
+    {
+      "id": "D69C4A63-5031-472F-B4D1-0958FF55E703",
+      "baseIconId": "D69C4A63-5031-472F-B4D1-0958FF55E703",
+      "name": "account-file-text",
+      "codepoint": "F1CA9",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Contributors",
+      "componentName": "IconAccountFileTextComponent"
+    }
+  ],
+  [
+    "account-file",
+    {
+      "id": "F0FA7981-9900-4267-B720-183597FF7B86",
+      "baseIconId": "F0FA7981-9900-4267-B720-183597FF7B86",
+      "name": "account-file",
+      "codepoint": "F1CA7",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Account / User"
+      ],
+      "author": "Contributors",
+      "componentName": "IconAccountFileComponent"
+    }
+  ],
+  [
     "account-filter-outline",
     {
       "id": "4C7A5C71-F3C9-4BD7-B123-C71BE81CAFB7",
@@ -1518,7 +1656,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F1816",
       "aliases": [
         "account-disability-outline",
-        "patient-outline"
+        "patient-outline",
+        "person-injury-outline"
       ],
       "styles": [
         "outline",
@@ -1543,7 +1682,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F1815",
       "aliases": [
         "account-disability",
-        "patient"
+        "patient",
+        "person-injury"
       ],
       "styles": [
         "variant"
@@ -11914,6 +12054,44 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "arrow-oscillating-off",
+    {
+      "id": "40B085E6-3993-403C-9F55-B61AEBDBA17A",
+      "baseIconId": "8EF4AC1A-24B5-42C7-9D6B-5F35227788E4",
+      "name": "arrow-oscillating-off",
+      "codepoint": "F1C92",
+      "aliases": [],
+      "styles": [
+        "off"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Matthias de Baat",
+      "componentName": "IconArrowOscillatingOffComponent"
+    }
+  ],
+  [
+    "arrow-oscillating",
+    {
+      "id": "8EF4AC1A-24B5-42C7-9D6B-5F35227788E4",
+      "baseIconId": "8EF4AC1A-24B5-42C7-9D6B-5F35227788E4",
+      "name": "arrow-oscillating",
+      "codepoint": "F1C91",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Matthias de Baat",
+      "componentName": "IconArrowOscillatingComponent"
+    }
+  ],
+  [
     "arrow-projectile-multiple",
     {
       "id": "F3A249F5-9D86-4A3E-A197-C8C410C3721B",
@@ -13544,7 +13722,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "11D80B18-006C-4929-8CEA-29D2C8BED5B7",
       "name": "artboard",
       "codepoint": "F1B9A",
-      "aliases": [],
+      "aliases": [
+        "canvas",
+        "frame"
+      ],
       "styles": [],
       "version": "7.0.96",
       "deprecated": false,
@@ -14081,6 +14262,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Google",
       "componentName": "IconAutoFixComponent"
+    }
+  ],
+  [
+    "auto-mode",
+    {
+      "id": "A3A6B130-A579-48CB-8850-C5E5425A77AE",
+      "baseIconId": "A3A6B130-A579-48CB-8850-C5E5425A77AE",
+      "name": "auto-mode",
+      "codepoint": "F1C20",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconAutoModeComponent"
     }
   ],
   [
@@ -15275,6 +15472,51 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "bag-personal-plus-outline",
+    {
+      "id": "A34CE341-A59D-45C8-9F26-F4A9837915FF",
+      "baseIconId": "FB55F27F-9D0D-4EA7-ACD7-22C85E799248",
+      "name": "bag-personal-plus-outline",
+      "codepoint": "F1CA5",
+      "aliases": [
+        "backpack-plus-outline",
+        "backpack-add-outline",
+        "bag-personal-add-outline"
+      ],
+      "styles": [
+        "outline",
+        "plus"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Matthew Terry",
+      "componentName": "IconBagPersonalPlusOutlineComponent"
+    }
+  ],
+  [
+    "bag-personal-plus",
+    {
+      "id": "254FBC4D-1BB7-425B-8FB3-A9BB08106C82",
+      "baseIconId": "FB55F27F-9D0D-4EA7-ACD7-22C85E799248",
+      "name": "bag-personal-plus",
+      "codepoint": "F1CA4",
+      "aliases": [
+        "bag-personal-add",
+        "backpack-add",
+        "backpack-plus"
+      ],
+      "styles": [
+        "plus"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Matthew Terry",
+      "componentName": "IconBagPersonalPlusComponent"
+    }
+  ],
+  [
     "bag-personal-tag-outline",
     {
       "id": "49BAA4CB-38E1-4792-93ED-8298AFB304A1",
@@ -16057,6 +16299,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconBaseballDiamondComponent"
+    }
+  ],
+  [
+    "baseball-outline",
+    {
+      "id": "8A7385DC-1143-489D-8AE3-E525EED95222",
+      "baseIconId": "EDAC5CB7-39B3-4DAD-89ED-38D7EA914211",
+      "name": "baseball-outline",
+      "codepoint": "F1C5A",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Sport"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconBaseballOutlineComponent"
     }
   ],
   [
@@ -19524,6 +19786,38 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "bench-back",
+    {
+      "id": "FA105BDA-FD31-4A8E-86AD-1C02073B05B7",
+      "baseIconId": "0A408C8A-FD39-4160-9547-3A7895BCE942",
+      "name": "bench-back",
+      "codepoint": "F1C22",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconBenchBackComponent"
+    }
+  ],
+  [
+    "bench",
+    {
+      "id": "0A408C8A-FD39-4160-9547-3A7895BCE942",
+      "baseIconId": "0A408C8A-FD39-4160-9547-3A7895BCE942",
+      "name": "bench",
+      "codepoint": "F1C21",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconBenchComponent"
+    }
+  ],
+  [
     "beta",
     {
       "id": "4F83A19F-BAB5-4894-AC5A-B288AFD592DC",
@@ -19684,8 +19978,6 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "deprecated": false,
       "tags": [
         "Transportation + Other",
-        "Sport",
-        "Sport",
         "Sport"
       ],
       "author": "François Risoud",
@@ -19711,6 +20003,65 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "GreenTurtwig",
       "componentName": "IconBikeFastComponent"
+    }
+  ],
+  [
+    "bike-pedal-clipless",
+    {
+      "id": "25F25042-2064-4655-A19C-F9761ABF0EC7",
+      "baseIconId": "31FF4583-E8CF-45E3-9F21-F75022605846",
+      "name": "bike-pedal-clipless",
+      "codepoint": "F1C24",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Transportation + Other",
+        "Sport"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconBikePedalCliplessComponent"
+    }
+  ],
+  [
+    "bike-pedal-mountain",
+    {
+      "id": "E609D6B1-16E0-43BA-9674-6F2E5924504E",
+      "baseIconId": "31FF4583-E8CF-45E3-9F21-F75022605846",
+      "name": "bike-pedal-mountain",
+      "codepoint": "F1C25",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Transportation + Other",
+        "Sport"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconBikePedalMountainComponent"
+    }
+  ],
+  [
+    "bike-pedal",
+    {
+      "id": "31FF4583-E8CF-45E3-9F21-F75022605846",
+      "baseIconId": "31FF4583-E8CF-45E3-9F21-F75022605846",
+      "name": "bike-pedal",
+      "codepoint": "F1C23",
+      "aliases": [
+        "bike-pedal-flat"
+      ],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Transportation + Other",
+        "Sport"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconBikePedalComponent"
     }
   ],
   [
@@ -21330,6 +21681,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "book-open-blank-variant-outline",
+    {
+      "id": "42991CAB-D9D2-43FF-8AB1-CA6CC358742D",
+      "baseIconId": "7EFAD89C-D84E-41F0-A8A4-F72AC8DB470C",
+      "name": "book-open-blank-variant-outline",
+      "codepoint": "F1CCB",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconBookOpenBlankVariantOutlineComponent"
+    }
+  ],
+  [
     "book-open-blank-variant",
     {
       "id": "08C8BAF9-6B91-458D-BE03-F6A7AABEA2AB",
@@ -21404,6 +21771,25 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Google",
       "componentName": "IconBookOpenPageVariantComponent"
+    }
+  ],
+  [
+    "book-open-variant-outline",
+    {
+      "id": "136112D6-C008-4704-87AA-BD5AB0C23A50",
+      "baseIconId": "7EFAD89C-D84E-41F0-A8A4-F72AC8DB470C",
+      "name": "book-open-variant-outline",
+      "codepoint": "F1CCC",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "variant"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconBookOpenVariantOutlineComponent"
     }
   ],
   [
@@ -25177,6 +25563,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "bus-sign",
+    {
+      "id": "F78F2CE4-8F69-48F7-9BA2-C806A3723E74",
+      "baseIconId": "F6516F38-B29E-4CC9-A7E2-706817121D45",
+      "name": "bus-sign",
+      "codepoint": "F1CC1",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconBusSignComponent"
+    }
+  ],
+  [
     "bus-stop-covered",
     {
       "id": "E299AA19-1C5F-4D7F-B101-0FBFC05A7130",
@@ -25235,6 +25637,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconBusStopComponent"
+    }
+  ],
+  [
+    "bus-wrench",
+    {
+      "id": "B8B29CB6-A4EA-40C5-B5AC-2388653D1724",
+      "baseIconId": "F6516F38-B29E-4CC9-A7E2-706817121D45",
+      "name": "bus-wrench",
+      "codepoint": "F1CC2",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconBusWrenchComponent"
     }
   ],
   [
@@ -28938,6 +29356,27 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "car-door-lock-open",
+    {
+      "id": "9558FFAF-0865-47B4-BC3D-32E34266E2F0",
+      "baseIconId": "AA43B04E-7C56-4DFB-83FC-081E3A4A3F48",
+      "name": "car-door-lock-open",
+      "codepoint": "F1C81",
+      "aliases": [],
+      "styles": [
+        "lock"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Automotive",
+        "Lock"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconCarDoorLockOpenComponent"
+    }
+  ],
+  [
     "car-door-lock",
     {
       "id": "76A1EC75-D6D2-465E-89F7-EBE2AF145C4C",
@@ -29347,7 +29786,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "CB49A868-3317-4445-BFED-13CB6533000E",
       "name": "car-pickup",
       "codepoint": "F07AA",
-      "aliases": [],
+      "aliases": [
+        "truck-pickup"
+      ],
       "styles": [],
       "version": "2.0.46",
       "deprecated": false,
@@ -29809,7 +30250,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "CB49A868-3317-4445-BFED-13CB6533000E",
       "name": "caravan",
       "codepoint": "F07AD",
-      "aliases": [],
+      "aliases": [
+        "holiday",
+        "camping"
+      ],
       "styles": [],
       "version": "2.0.46",
       "deprecated": false,
@@ -31393,6 +31837,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "cash-edit",
+    {
+      "id": "9E3DA25C-D9A8-4009-A08D-5D98E3B3DCC9",
+      "baseIconId": "9E3DA25C-D9A8-4009-A08D-5D98E3B3DCC9",
+      "name": "cash-edit",
+      "codepoint": "F1CAB",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconCashEditComponent"
+    }
+  ],
+  [
     "cash-fast",
     {
       "id": "A10E9739-AA80-4671-B744-ECB9934BB7E4",
@@ -31525,6 +31987,27 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Austin Andrews",
       "componentName": "IconCashMultipleComponent"
+    }
+  ],
+  [
+    "cash-off",
+    {
+      "id": "429B4063-AAA8-4F02-B861-84FC3E00571D",
+      "baseIconId": "59956D81-BF6B-4DCA-ABAD-A890412F22F1",
+      "name": "cash-off",
+      "codepoint": "F1C79",
+      "aliases": [],
+      "styles": [
+        "off"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Currency",
+        "Banking"
+      ],
+      "author": "Andrej Sharapov",
+      "componentName": "IconCashOffComponent"
     }
   ],
   [
@@ -32725,6 +33208,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "charity-search",
+    {
+      "id": "2306EC7A-612C-4847-83D6-495CECA5AA5D",
+      "baseIconId": "B5589411-20E7-4552-BEC5-A394068B23A7",
+      "name": "charity-search",
+      "codepoint": "F1C82",
+      "aliases": [],
+      "styles": [
+        "search"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Ryan Donahue",
+      "componentName": "IconCharitySearchComponent"
+    }
+  ],
+  [
     "charity",
     {
       "id": "B5589411-20E7-4552-BEC5-A394068B23A7",
@@ -32895,6 +33396,57 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconChartBellCurveComponent"
+    }
+  ],
+  [
+    "chart-box-multiple-outline",
+    {
+      "id": "DA461BDE-F579-4196-A3CD-C186D0C2912A",
+      "baseIconId": "381420B2-B2EE-4E9F-9DEA-EA0C1F92A226",
+      "name": "chart-box-multiple-outline",
+      "codepoint": "F1CCE",
+      "aliases": [
+        "graph-box-multiple-outline",
+        "widget-box-multiple-outline",
+        "report-box-multiple-outline",
+        "poll-box-multiple-outline"
+      ],
+      "styles": [
+        "multiple",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Math"
+      ],
+      "author": "Konstantin Saller",
+      "componentName": "IconChartBoxMultipleOutlineComponent"
+    }
+  ],
+  [
+    "chart-box-multiple",
+    {
+      "id": "F85DED12-7AE9-436D-81BA-DA154B8E2317",
+      "baseIconId": "381420B2-B2EE-4E9F-9DEA-EA0C1F92A226",
+      "name": "chart-box-multiple",
+      "codepoint": "F1CCD",
+      "aliases": [
+        "poll-box-multiple",
+        "graph-box-multiple",
+        "widget-box-multiple",
+        "report-box-multiple"
+      ],
+      "styles": [
+        "multiple"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Math"
+      ],
+      "author": "Konstantin Saller",
+      "componentName": "IconChartBoxMultipleComponent"
     }
   ],
   [
@@ -33562,7 +34114,11 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "7FF15164-E575-4024-ABAC-A183179F0217",
       "name": "chat-outline",
       "codepoint": "F0EDE",
-      "aliases": [],
+      "aliases": [
+        "message-outline",
+        "message-bubble-outline",
+        "speak-outline"
+      ],
       "styles": [
         "outline"
       ],
@@ -33762,7 +34318,11 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "7FF15164-E575-4024-ABAC-A183179F0217",
       "name": "chat",
       "codepoint": "F0B79",
-      "aliases": [],
+      "aliases": [
+        "message",
+        "message-bubble",
+        "speak"
+      ],
       "styles": [],
       "version": "3.0.39",
       "deprecated": false,
@@ -34320,6 +34880,51 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconCheckboxIntermediateComponent"
+    }
+  ],
+  [
+    "checkbox-marked-circle-auto-outline",
+    {
+      "id": "F55DDDD9-41D3-477B-A513-DD6CF2487E0B",
+      "baseIconId": "F031DE59-CC30-47BF-B689-BC993893B03A",
+      "name": "checkbox-marked-circle-auto-outline",
+      "codepoint": "F1C26",
+      "aliases": [
+        "task-auto",
+        "todo-auto"
+      ],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Form"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconCheckboxMarkedCircleAutoOutlineComponent"
+    }
+  ],
+  [
+    "checkbox-marked-circle-minus-outline",
+    {
+      "id": "53428253-C1B2-47CD-BBC8-7069E7697FEF",
+      "baseIconId": "F031DE59-CC30-47BF-B689-BC993893B03A",
+      "name": "checkbox-marked-circle-minus-outline",
+      "codepoint": "F1C27",
+      "aliases": [
+        "todo-minus",
+        "task-minus"
+      ],
+      "styles": [
+        "minus",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Form"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconCheckboxMarkedCircleMinusOutlineComponent"
     }
   ],
   [
@@ -36204,6 +36809,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "city-switch",
+    {
+      "id": "830F6E98-B337-4E3C-A990-AA44622F4E78",
+      "baseIconId": "5A5AC571-1818-45D0-8259-A9177DBED615",
+      "name": "city-switch",
+      "codepoint": "F1C28",
+      "aliases": [
+        "city-swap"
+      ],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Places"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconCitySwitchComponent"
+    }
+  ],
+  [
     "city-variant-outline",
     {
       "id": "1DECCCEC-93F2-4BD8-BEFD-370D5020DCDB",
@@ -37763,6 +38388,51 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "clock-star-four-points-outline",
+    {
+      "id": "ECD839D8-3E3A-4080-AE28-E15A82E0ACF2",
+      "baseIconId": "90E7BBD9-12C3-4339-94DE-99A049C8D4B1",
+      "name": "clock-star-four-points-outline",
+      "codepoint": "F1C2A",
+      "aliases": [
+        "clock-auto-outline"
+      ],
+      "styles": [
+        "outline",
+        "star"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Date / Time"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconClockStarFourPointsOutlineComponent"
+    }
+  ],
+  [
+    "clock-star-four-points",
+    {
+      "id": "AA756E06-67A0-4182-8A32-CF4968219B68",
+      "baseIconId": "90E7BBD9-12C3-4339-94DE-99A049C8D4B1",
+      "name": "clock-star-four-points",
+      "codepoint": "F1C29",
+      "aliases": [
+        "clock-auto"
+      ],
+      "styles": [
+        "star"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Date / Time"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconClockStarFourPointsComponent"
+    }
+  ],
+  [
     "clock-start",
     {
       "id": "85A4435A-CDCF-42BC-8F2C-B46EDF8820BD",
@@ -38651,7 +39321,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
         "clear",
         "multiply",
         "remove",
-        "cancel"
+        "cancel",
+        "times"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -39246,6 +39917,52 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "cloud-key-outline",
+    {
+      "id": "CB6C6880-11B8-4BE6-9EA5-6F4D53EF98EC",
+      "baseIconId": "CF07C502-388E-4A65-BD89-FACCFD00C245",
+      "name": "cloud-key-outline",
+      "codepoint": "F1CA2",
+      "aliases": [
+        "cloud-security-outline",
+        "cloud-access-outline"
+      ],
+      "styles": [
+        "key"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Cloud"
+      ],
+      "author": "frankgrinaert",
+      "componentName": "IconCloudKeyOutlineComponent"
+    }
+  ],
+  [
+    "cloud-key",
+    {
+      "id": "3694A84E-0A8D-420F-98C3-C892312B29D4",
+      "baseIconId": "CF07C502-388E-4A65-BD89-FACCFD00C245",
+      "name": "cloud-key",
+      "codepoint": "F1CA1",
+      "aliases": [
+        "cloud-security",
+        "cloud-access"
+      ],
+      "styles": [
+        "key"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Cloud"
+      ],
+      "author": "frankgrinaert",
+      "componentName": "IconCloudKeyComponent"
+    }
+  ],
+  [
     "cloud-lock-open-outline",
     {
       "id": "54073599-B365-465E-89D6-2081A5D0EB1F",
@@ -39377,7 +40094,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "CF07C502-388E-4A65-BD89-FACCFD00C245",
       "name": "cloud-off-outline",
       "codepoint": "F0164",
-      "aliases": [],
+      "aliases": [
+        "offline",
+        "local"
+      ],
       "styles": [
         "off",
         "outline"
@@ -39933,6 +40653,28 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "clover-outline",
+    {
+      "id": "6518E183-1362-4363-ACAF-21FECEA87732",
+      "baseIconId": "0B70716D-3C56-43F1-85D4-B264C05DCC32",
+      "name": "clover-outline",
+      "codepoint": "F1C62",
+      "aliases": [
+        "luck-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Nature"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconCloverOutlineComponent"
+    }
+  ],
+  [
     "clover",
     {
       "id": "0B70716D-3C56-43F1-85D4-B264C05DCC32",
@@ -40037,6 +40779,86 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Austin Andrews",
       "componentName": "IconCodeArrayComponent"
+    }
+  ],
+  [
+    "code-block-braces",
+    {
+      "id": "C74E1367-3799-4422-8065-A200D4CAB498",
+      "baseIconId": "1F6661BC-6538-4EF0-92B5-46EFAE5E0C77",
+      "name": "code-block-braces",
+      "codepoint": "F1C83",
+      "aliases": [
+        "code-block-tag",
+        "code-block-json"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Developer / Languages"
+      ],
+      "author": "frankgrinaert",
+      "componentName": "IconCodeBlockBracesComponent"
+    }
+  ],
+  [
+    "code-block-brackets",
+    {
+      "id": "5138F119-7F73-4A34-ACB8-CDB00042AAB6",
+      "baseIconId": "C08498C1-E43B-4E79-817C-121AD2827689",
+      "name": "code-block-brackets",
+      "codepoint": "F1C84",
+      "aliases": [
+        "code-block-square"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Developer / Languages"
+      ],
+      "author": "frankgrinaert",
+      "componentName": "IconCodeBlockBracketsComponent"
+    }
+  ],
+  [
+    "code-block-parentheses",
+    {
+      "id": "8E35BF13-D1D3-4F97-ACBE-87E07DCE9FC3",
+      "baseIconId": "A4E1DE1B-754D-4884-9902-8D5DDE2182B0",
+      "name": "code-block-parentheses",
+      "codepoint": "F1C85",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Developer / Languages"
+      ],
+      "author": "frankgrinaert",
+      "componentName": "IconCodeBlockParenthesesComponent"
+    }
+  ],
+  [
+    "code-block-tags",
+    {
+      "id": "E13525B2-A482-46B5-B01E-5CE520FC2C1D",
+      "baseIconId": "609A0AB0-05EE-4824-BD40-A4E78F4A74D3",
+      "name": "code-block-tags",
+      "codepoint": "F1C86",
+      "aliases": [
+        "code-block-html",
+        "code-block-xml"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Developer / Languages"
+      ],
+      "author": "frankgrinaert",
+      "componentName": "IconCodeBlockTagsComponent"
     }
   ],
   [
@@ -44005,6 +44827,29 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "creation-outline",
+    {
+      "id": "E643EA62-6140-491A-9B2D-DE88F51BD37A",
+      "baseIconId": "598B7931-3DF8-4CFA-A6E6-80550CA31372",
+      "name": "creation-outline",
+      "codepoint": "F1C2B",
+      "aliases": [
+        "auto-awesome-outline",
+        "sparkles-outline",
+        "stars-outline",
+        "shimmer-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconCreationOutlineComponent"
+    }
+  ],
+  [
     "creation",
     {
       "id": "598B7931-3DF8-4CFA-A6E6-80550CA31372",
@@ -44012,7 +44857,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "creation",
       "codepoint": "F0674",
       "aliases": [
-        "auto-awesome"
+        "auto-awesome",
+        "sparkles",
+        "stars",
+        "shimmer"
       ],
       "styles": [],
       "version": "1.7.12",
@@ -45533,7 +46381,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F130F",
       "aliases": [
         "glass-outline",
-        "drink-outline"
+        "drink-outline",
+        "cup-empty"
       ],
       "styles": [
         "outline"
@@ -48659,6 +49508,29 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "diaper-outline",
+    {
+      "id": "060C6C30-A2B7-430F-A90B-03483819BBD0",
+      "baseIconId": "8A71EDC4-CA3C-450D-BD59-5915ADCDF9D4",
+      "name": "diaper-outline",
+      "codepoint": "F1CCF",
+      "aliases": [
+        "nappy-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Clothing",
+        "Medical / Hospital"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconDiaperOutlineComponent"
+    }
+  ],
+  [
     "dice-1-outline",
     {
       "id": "430F434F-E5F5-4D54-97B0-F6D1CE844365",
@@ -50047,6 +50919,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "domain-switch",
+    {
+      "id": "27E6BA2C-0A33-4FE7-AF71-B3B9AE767C0B",
+      "baseIconId": "CA264BA4-62A9-4823-A172-22DD413A6CF5",
+      "name": "domain-switch",
+      "codepoint": "F1C2C",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconDomainSwitchComponent"
+    }
+  ],
+  [
     "domain",
     {
       "id": "CA264BA4-62A9-4823-A172-22DD413A6CF5",
@@ -50119,6 +51007,30 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Contributors",
       "componentName": "IconDonkeyComponent"
+    }
+  ],
+  [
+    "door-closed-cancel",
+    {
+      "id": "4F2F0F07-CF86-40E1-A204-E5BAB501B5F5",
+      "baseIconId": "858F8782-5001-4950-96F2-65032091A847",
+      "name": "door-closed-cancel",
+      "codepoint": "F1C93",
+      "aliases": [
+        "door-forbidden",
+        "door-do-not-enter",
+        "door-unavailable"
+      ],
+      "styles": [
+        "cancel"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconDoorClosedCancelComponent"
     }
   ],
   [
@@ -50630,6 +51542,25 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconDownloadLockComponent"
+    }
+  ],
+  [
+    "download-multiple-outline",
+    {
+      "id": "3507A83C-1638-425D-B3D8-87EC40648E7B",
+      "baseIconId": "704F7397-0E85-4213-8D76-FE156DF1795F",
+      "name": "download-multiple-outline",
+      "codepoint": "F1CD0",
+      "aliases": [],
+      "styles": [
+        "multiple",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconDownloadMultipleOutlineComponent"
     }
   ],
   [
@@ -51257,6 +52188,50 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "earth-arrow-down",
+    {
+      "id": "7EAEFA1D-7544-43E9-A93E-3869A3E50CB4",
+      "baseIconId": "0D1618BF-A3AD-4B4A-92EA-5DBF93BF7625",
+      "name": "earth-arrow-down",
+      "codepoint": "F1C87",
+      "aliases": [
+        "globe-arrow-down",
+        "world-arrow-down",
+        "planet-arrow-down"
+      ],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "frankgrinaert",
+      "componentName": "IconEarthArrowDownComponent"
+    }
+  ],
+  [
+    "earth-arrow-left",
+    {
+      "id": "01449F7D-91CD-46C4-A645-654860CEB1E0",
+      "baseIconId": "01449F7D-91CD-46C4-A645-654860CEB1E0",
+      "name": "earth-arrow-left",
+      "codepoint": "F1C88",
+      "aliases": [
+        "globe-arrow-left",
+        "world-arrow-left",
+        "planet-arrow-left"
+      ],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "frankgrinaert",
+      "componentName": "IconEarthArrowLeftComponent"
+    }
+  ],
+  [
     "earth-arrow-right",
     {
       "id": "E6C7261B-1CC0-41EA-844B-0DA761CDCC12",
@@ -51278,6 +52253,28 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconEarthArrowRightComponent"
+    }
+  ],
+  [
+    "earth-arrow-up",
+    {
+      "id": "9D8CB6F6-F5F6-4D11-8194-F392B52601F3",
+      "baseIconId": "0D1618BF-A3AD-4B4A-92EA-5DBF93BF7625",
+      "name": "earth-arrow-up",
+      "codepoint": "F1C89",
+      "aliases": [
+        "globe-arrow-up",
+        "planet-arrow-up",
+        "world-arrow-up"
+      ],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "frankgrinaert",
+      "componentName": "IconEarthArrowUpComponent"
     }
   ],
   [
@@ -52281,6 +53278,29 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "email-heart-outline",
+    {
+      "id": "763A453D-9B1C-4E6A-A28C-2534AD4641A7",
+      "baseIconId": "14AAE073-8399-4D67-9F7E-8E9424328681",
+      "name": "email-heart-outline",
+      "codepoint": "F1C5B",
+      "aliases": [
+        "love-letter",
+        "envelope-heart-outline",
+        "greeting-card"
+      ],
+      "styles": [
+        "heart",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconEmailHeartOutlineComponent"
+    }
+  ],
+  [
     "email-lock-outline",
     {
       "id": "F4DE5AAA-B343-46ED-B1D3-CBDA05A61E87",
@@ -52468,6 +53488,29 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Michael Irigoyen",
       "componentName": "IconEmailOffComponent"
+    }
+  ],
+  [
+    "email-open-heart-outline",
+    {
+      "id": "BA4C3DC0-3F05-4464-BA25-CB5AA0E96789",
+      "baseIconId": "14AAE073-8399-4D67-9F7E-8E9424328681",
+      "name": "email-open-heart-outline",
+      "codepoint": "F1C5C",
+      "aliases": [
+        "love-letter-open",
+        "greeting-card-open",
+        "envelope-open-heart-outline"
+      ],
+      "styles": [
+        "heart",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconEmailOpenHeartOutlineComponent"
     }
   ],
   [
@@ -53344,6 +54387,38 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "emoticon-minus-outline",
+    {
+      "id": "47E88450-34FB-4AC3-B497-3724490AC75C",
+      "baseIconId": "47E88450-34FB-4AC3-B497-3724490AC75C",
+      "name": "emoticon-minus-outline",
+      "codepoint": "F1CB3",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Austin Andrews",
+      "componentName": "IconEmoticonMinusOutlineComponent"
+    }
+  ],
+  [
+    "emoticon-minus",
+    {
+      "id": "5B0AC9D6-D90F-4014-9EEF-A549321B0E1E",
+      "baseIconId": "5B0AC9D6-D90F-4014-9EEF-A549321B0E1E",
+      "name": "emoticon-minus",
+      "codepoint": "F1CB2",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Austin Andrews",
+      "componentName": "IconEmoticonMinusComponent"
+    }
+  ],
+  [
     "emoticon-neutral-outline",
     {
       "id": "17F30B32-37E2-41BB-876C-70E568D04623",
@@ -53416,6 +54491,38 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "emoticon-plus-outline",
+    {
+      "id": "2DBE55DC-10B6-446B-A380-D9E0637D7430",
+      "baseIconId": "2DBE55DC-10B6-446B-A380-D9E0637D7430",
+      "name": "emoticon-plus-outline",
+      "codepoint": "F1CB5",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "bakotamas",
+      "componentName": "IconEmoticonPlusOutlineComponent"
+    }
+  ],
+  [
+    "emoticon-plus",
+    {
+      "id": "977CB7BF-C5B2-41F1-A530-13C3E2944CBB",
+      "baseIconId": "977CB7BF-C5B2-41F1-A530-13C3E2944CBB",
+      "name": "emoticon-plus",
+      "codepoint": "F1CB4",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "bakotamas",
+      "componentName": "IconEmoticonPlusComponent"
+    }
+  ],
+  [
     "emoticon-poop-outline",
     {
       "id": "1E402C80-69DB-432F-BB0F-C05ACB6A7839",
@@ -53458,6 +54565,38 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Austin Andrews",
       "componentName": "IconEmoticonPoopComponent"
+    }
+  ],
+  [
+    "emoticon-remove-outline",
+    {
+      "id": "63755E6E-F437-4241-AFFE-AAD2FEF98906",
+      "baseIconId": "63755E6E-F437-4241-AFFE-AAD2FEF98906",
+      "name": "emoticon-remove-outline",
+      "codepoint": "F1CB7",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Austin Andrews",
+      "componentName": "IconEmoticonRemoveOutlineComponent"
+    }
+  ],
+  [
+    "emoticon-remove",
+    {
+      "id": "A86DA248-7217-4896-9A5C-2AD6B8A91829",
+      "baseIconId": "A86DA248-7217-4896-9A5C-2AD6B8A91829",
+      "name": "emoticon-remove",
+      "codepoint": "F1CB6",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Austin Andrews",
+      "componentName": "IconEmoticonRemoveComponent"
     }
   ],
   [
@@ -54028,6 +55167,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "ethernet-off",
+    {
+      "id": "F011BA7B-390E-4AC0-8C23-425C8E1BEA4C",
+      "baseIconId": "3AB3C243-0FD3-4903-A6EA-B0B29ABFAD6C",
+      "name": "ethernet-off",
+      "codepoint": "F1CD1",
+      "aliases": [],
+      "styles": [
+        "off"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Colton Wiscombe",
+      "componentName": "IconEthernetOffComponent"
+    }
+  ],
+  [
     "ethernet",
     {
       "id": "3AB3C243-0FD3-4903-A6EA-B0B29ABFAD6C",
@@ -54224,7 +55381,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "version": "4.1.95",
       "deprecated": false,
       "tags": [
-        "Hardware / Tools"
+        "Hardware / Tools",
+        "Transportation + Other"
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconExcavatorComponent"
@@ -54620,6 +55778,25 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Michael Richins",
       "componentName": "IconEyeCircleComponent"
+    }
+  ],
+  [
+    "eye-closed",
+    {
+      "id": "81421142-BE10-4918-8720-5858B7BC2E4B",
+      "baseIconId": "3C2B7DF3-97FE-4EC4-B6A9-69A75FB26B67",
+      "name": "eye-closed",
+      "codepoint": "F1CA3",
+      "aliases": [
+        "eye-shut",
+        "visibility-hidden"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "joshua-maros",
+      "componentName": "IconEyeClosedComponent"
     }
   ],
   [
@@ -57239,6 +58416,47 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "file-document-refresh-outline",
+    {
+      "id": "552EA028-A83A-4018-8277-58191691C816",
+      "baseIconId": "BFF59001-B52D-47E6-A217-C9095F81C3B8",
+      "name": "file-document-refresh-outline",
+      "codepoint": "F1C7B",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "refresh"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Files / Folders"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconFileDocumentRefreshOutlineComponent"
+    }
+  ],
+  [
+    "file-document-refresh",
+    {
+      "id": "8FD1C2DF-1063-4E5F-966B-99794441E8C6",
+      "baseIconId": "BFF59001-B52D-47E6-A217-C9095F81C3B8",
+      "name": "file-document-refresh",
+      "codepoint": "F1C7A",
+      "aliases": [],
+      "styles": [
+        "refresh"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Files / Folders"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconFileDocumentRefreshComponent"
+    }
+  ],
+  [
     "file-document-remove-outline",
     {
       "id": "9125073F-13EB-4FAD-AE78-30E02AC5B906",
@@ -58995,6 +60213,51 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "file-star-four-points-outline",
+    {
+      "id": "D97DE718-4746-41B5-9168-4F5F08513158",
+      "baseIconId": "BFF59001-B52D-47E6-A217-C9095F81C3B8",
+      "name": "file-star-four-points-outline",
+      "codepoint": "F1C2E",
+      "aliases": [
+        "file-auto-outline"
+      ],
+      "styles": [
+        "outline",
+        "star"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Files / Folders"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconFileStarFourPointsOutlineComponent"
+    }
+  ],
+  [
+    "file-star-four-points",
+    {
+      "id": "E78BF233-EE37-492B-8E41-3965576E4A7C",
+      "baseIconId": "BFF59001-B52D-47E6-A217-C9095F81C3B8",
+      "name": "file-star-four-points",
+      "codepoint": "F1C2D",
+      "aliases": [
+        "file-auto"
+      ],
+      "styles": [
+        "star"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Files / Folders"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconFileStarFourPointsComponent"
+    }
+  ],
+  [
     "file-star-outline",
     {
       "id": "B418C938-EE23-4073-B10C-C1D93D54B288",
@@ -60281,6 +61544,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconFireOffComponent"
+    }
+  ],
+  [
+    "fire-station",
+    {
+      "id": "95D900A4-8DDB-4235-9204-333DF520CD14",
+      "baseIconId": "95D900A4-8DDB-4235-9204-333DF520CD14",
+      "name": "fire-station",
+      "codepoint": "F1CC3",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconFireStationComponent"
     }
   ],
   [
@@ -64951,6 +66230,32 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "forest-outline",
+    {
+      "id": "E247BE22-952A-42FB-9741-F4607385A99B",
+      "baseIconId": "70EFA358-6CE3-4CC1-9F46-6283D491F2E2",
+      "name": "forest-outline",
+      "codepoint": "F1C63",
+      "aliases": [
+        "forestry-outline",
+        "pine-tree-multiple-outline"
+      ],
+      "styles": [
+        "multiple",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Nature",
+        "Agriculture",
+        "Places"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconForestOutlineComponent"
+    }
+  ],
+  [
     "forest",
     {
       "id": "70EFA358-6CE3-4CC1-9F46-6283D491F2E2",
@@ -64966,7 +66271,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "deprecated": false,
       "tags": [
         "Nature",
-        "Agriculture"
+        "Agriculture",
+        "Places"
       ],
       "author": "Google",
       "componentName": "IconForestComponent"
@@ -67130,9 +68436,12 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "forum-minus-outline",
       "codepoint": "F1AAA",
       "aliases": [
+        "dialogue-minus-outline",
         "chat-minus-outline",
         "forum-subtract-outline",
-        "chat-subtract-outline"
+        "chat-subtract-outline",
+        "conversation-minus-outline",
+        "discussion-minus-outline"
       ],
       "styles": [
         "minus",
@@ -67153,6 +68462,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "forum-minus",
       "codepoint": "F1AA9",
       "aliases": [
+        "discussion-minus",
+        "conversation-minus",
+        "dialogue-minus",
         "chat-minus",
         "forum-subtract",
         "chat-subtract"
@@ -67175,7 +68487,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "forum-outline",
       "codepoint": "F0822",
       "aliases": [
-        "chat-outline"
+        "chat-outline",
+        "dialogue-outline",
+        "discussion-outline",
+        "conversation-outline"
       ],
       "styles": [
         "outline"
@@ -67197,7 +68512,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "chat-plus-outline",
         "chat-add-outline",
-        "forum-add-outline"
+        "forum-add-outline",
+        "dialogue-plus-outline",
+        "conversation-plus-outline",
+        "discussion-plus-outline"
       ],
       "styles": [
         "outline",
@@ -67220,7 +68538,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "chat-plus",
         "forum-add",
-        "chat-add"
+        "chat-add",
+        "dialogue-plus",
+        "conversation-plus",
+        "discussion-plus"
       ],
       "styles": [
         "plus"
@@ -67242,7 +68563,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "forum-delete-outline",
         "chat-remove-outline",
-        "chat-delete-outline"
+        "chat-delete-outline",
+        "dialogue-remove-outline",
+        "conversation-remove-outline",
+        "discussion-remove-outline"
       ],
       "styles": [
         "outline",
@@ -67265,7 +68589,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "forum-delete",
         "chat-remove",
-        "chat-delete"
+        "chat-delete",
+        "dialogue-remove",
+        "conversation-remove",
+        "discussion-remove"
       ],
       "styles": [
         "remove"
@@ -67287,7 +68614,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "message-group",
         "question-answer",
-        "chat"
+        "chat",
+        "dialogue",
+        "conversation",
+        "discussion"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -68956,7 +70286,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "stove-burner",
         "cooktop-burner",
-        "grill"
+        "grill",
+        "natural-gas",
+        "energy"
       ],
       "styles": [],
       "version": "6.6.96",
@@ -68985,6 +70317,38 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Simran",
       "componentName": "IconGasCylinderComponent"
+    }
+  ],
+  [
+    "gas-station-in-use-outline",
+    {
+      "id": "29FEB55C-C480-4B50-A5CE-D2B2FA9F72B2",
+      "baseIconId": "50E30598-BCD8-4167-BDAC-FF6971E745D7",
+      "name": "gas-station-in-use-outline",
+      "codepoint": "F1CC5",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconGasStationInUseOutlineComponent"
+    }
+  ],
+  [
+    "gas-station-in-use",
+    {
+      "id": "B744E076-E4B1-43E6-9F3C-26F083D68075",
+      "baseIconId": "50E30598-BCD8-4167-BDAC-FF6971E745D7",
+      "name": "gas-station-in-use",
+      "codepoint": "F1CC4",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconGasStationInUseComponent"
     }
   ],
   [
@@ -69520,6 +70884,70 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Austin Andrews",
       "componentName": "IconGenderTransgenderComponent"
+    }
+  ],
+  [
+    "generator-mobile",
+    {
+      "id": "D97956CD-8749-401C-A45B-04D6D20017A9",
+      "baseIconId": "D97956CD-8749-401C-A45B-04D6D20017A9",
+      "name": "generator-mobile",
+      "codepoint": "F1C8A",
+      "aliases": [
+        "power-generator",
+        "electricity-generator"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Home Automation",
+        "Transportation + Other"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconGeneratorMobileComponent"
+    }
+  ],
+  [
+    "generator-portable",
+    {
+      "id": "E2964412-DEC3-4D20-AFD3-C70CB191BAA2",
+      "baseIconId": "E2964412-DEC3-4D20-AFD3-C70CB191BAA2",
+      "name": "generator-portable",
+      "codepoint": "F1C8B",
+      "aliases": [
+        "power-generator",
+        "electricity-generator"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconGeneratorPortableComponent"
+    }
+  ],
+  [
+    "generator-stationary",
+    {
+      "id": "3E1998B7-F3FC-44A6-A20D-33E492E963D4",
+      "baseIconId": "3E1998B7-F3FC-44A6-A20D-33E492E963D4",
+      "name": "generator-stationary",
+      "codepoint": "F1C8C",
+      "aliases": [
+        "power-generator",
+        "electricity-generator"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconGeneratorStationaryComponent"
     }
   ],
   [
@@ -70871,7 +72299,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "4.9.95",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Animal",
         "Gaming / RPG"
@@ -71039,7 +72467,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "4.1.95",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [],
       "author": "Google",
       "componentName": "IconGoogleMyBusinessComponent"
@@ -71055,7 +72483,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "1.5.54",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [],
       "author": "Google",
       "componentName": "IconGoogleNearbyComponent"
@@ -71108,7 +72536,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "3.7.94",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [],
       "author": "Google",
       "componentName": "IconGooglePodcastComponent"
@@ -71124,7 +72552,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "2.5.94",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [],
       "author": "Google",
       "componentName": "IconGoogleSpreadsheetComponent"
@@ -71142,7 +72570,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "3.2.89",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [],
       "author": "Google",
       "componentName": "IconGoogleStreetViewComponent"
@@ -73896,6 +75324,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "heart-search",
+    {
+      "id": "FC5F1079-0F24-415E-9364-573853A4BD34",
+      "baseIconId": "32B56DB2-B6BF-4B54-AD0C-9444106B1C1D",
+      "name": "heart-search",
+      "codepoint": "F1C8D",
+      "aliases": [
+        "find-love"
+      ],
+      "styles": [
+        "search"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Ryan Donahue",
+      "componentName": "IconHeartSearchComponent"
+    }
+  ],
+  [
     "heart-settings-outline",
     {
       "id": "9B32C2D5-B2BE-4646-9C41-53F10F7C1628",
@@ -74795,7 +76243,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "house-automation",
         "home-wireless",
-        "house-wireless"
+        "house-wireless",
+        "smart-home",
+        "smart-house"
       ],
       "styles": [],
       "version": "2.0.46",
@@ -74923,7 +76373,6 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "deprecated": false,
       "tags": [
         "Home Automation",
-        "Places",
         "Places"
       ],
       "author": "Google",
@@ -75746,6 +77195,42 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "home-percent-outline",
+    {
+      "id": "D947D6EA-6AFF-41EA-B631-DC5AB95EFED6",
+      "baseIconId": "5D085274-15B9-42EC-8CCE-2F94C5EC039C",
+      "name": "home-percent-outline",
+      "codepoint": "F1C7D",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconHomePercentOutlineComponent"
+    }
+  ],
+  [
+    "home-percent",
+    {
+      "id": "2873F779-5D6C-4735-AF84-104BD9F41B7D",
+      "baseIconId": "5D085274-15B9-42EC-8CCE-2F94C5EC039C",
+      "name": "home-percent",
+      "codepoint": "F1C7C",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconHomePercentComponent"
+    }
+  ],
+  [
     "home-plus-outline",
     {
       "id": "CDAF170C-BB2C-4217-9B96-D99EE9B725F9",
@@ -75956,6 +77441,82 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "home-sound-in-outline",
+    {
+      "id": "4B4ED868-C3DB-4D85-BCF2-4B2214BAF0CA",
+      "baseIconId": "5D085274-15B9-42EC-8CCE-2F94C5EC039C",
+      "name": "home-sound-in-outline",
+      "codepoint": "F1C30",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconHomeSoundInOutlineComponent"
+    }
+  ],
+  [
+    "home-sound-in",
+    {
+      "id": "30477CDE-7E54-4B3F-830D-F846520A28B2",
+      "baseIconId": "5D085274-15B9-42EC-8CCE-2F94C5EC039C",
+      "name": "home-sound-in",
+      "codepoint": "F1C2F",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconHomeSoundInComponent"
+    }
+  ],
+  [
+    "home-sound-out-outline",
+    {
+      "id": "87C2DE8C-2E23-467B-9C6C-AD258E1C4DE9",
+      "baseIconId": "5D085274-15B9-42EC-8CCE-2F94C5EC039C",
+      "name": "home-sound-out-outline",
+      "codepoint": "F1C32",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconHomeSoundOutOutlineComponent"
+    }
+  ],
+  [
+    "home-sound-out",
+    {
+      "id": "8922F49A-8B55-4B61-A893-A5E370AA39BD",
+      "baseIconId": "5D085274-15B9-42EC-8CCE-2F94C5EC039C",
+      "name": "home-sound-out",
+      "codepoint": "F1C31",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconHomeSoundOutComponent"
+    }
+  ],
+  [
     "home-switch-outline",
     {
       "id": "4C8FD8F1-0690-4B2D-A614-A03F58D48370",
@@ -76148,7 +77709,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "hoop-house",
       "codepoint": "F0E56",
       "aliases": [
-        "green-house"
+        "green-house",
+        "high-tunnel"
       ],
       "styles": [],
       "version": "3.6.95",
@@ -76451,6 +78013,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "hours-12",
+    {
+      "id": "A2BB919C-0296-4CAE-83EA-07AD9A9A378C",
+      "baseIconId": "A2BB919C-0296-4CAE-83EA-07AD9A9A378C",
+      "name": "hours-12",
+      "codepoint": "F1C94",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Date / Time"
+      ],
+      "author": "circa1665",
+      "componentName": "IconHours12Component"
+    }
+  ],
+  [
     "hours-24",
     {
       "id": "0AAC6125-3343-4D4A-AF22-69BC930FA96F",
@@ -76466,6 +78046,40 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Haley Halcyon",
       "componentName": "IconHours24Component"
+    }
+  ],
+  [
+    "hub-outline",
+    {
+      "id": "64A2362A-CC88-40D3-B071-09207B9CE7E0",
+      "baseIconId": "0BEA7CE4-5642-406D-A995-E2502E85D184",
+      "name": "hub-outline",
+      "codepoint": "F1C96",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Google",
+      "componentName": "IconHubOutlineComponent"
+    }
+  ],
+  [
+    "hub",
+    {
+      "id": "0BEA7CE4-5642-406D-A995-E2502E85D184",
+      "baseIconId": "0BEA7CE4-5642-406D-A995-E2502E85D184",
+      "name": "hub",
+      "codepoint": "F1C95",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Google",
+      "componentName": "IconHubComponent"
     }
   ],
   [
@@ -76684,6 +78298,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconHumanFemaleDanceComponent"
+    }
+  ],
+  [
+    "human-female-female-child",
+    {
+      "id": "51D1E4B3-A76C-4CA6-A389-177B6A7EFDBB",
+      "baseIconId": "B05E458D-886A-491D-9969-156562C52105",
+      "name": "human-female-female-child",
+      "codepoint": "F1C8E",
+      "aliases": [
+        "family"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "People / Family"
+      ],
+      "author": "Michael Irigoyen",
+      "componentName": "IconHumanFemaleFemaleChildComponent"
     }
   ],
   [
@@ -77038,6 +78672,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconHumanMaleHeightComponent"
+    }
+  ],
+  [
+    "human-male-male-child",
+    {
+      "id": "67F4CFA6-CBE2-4915-931B-D43AFBB11F97",
+      "baseIconId": "B05E458D-886A-491D-9969-156562C52105",
+      "name": "human-male-male-child",
+      "codepoint": "F1C8F",
+      "aliases": [
+        "family"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "People / Family"
+      ],
+      "author": "Michael Irigoyen",
+      "componentName": "IconHumanMaleMaleChildComponent"
     }
   ],
   [
@@ -77865,6 +79519,30 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "image-filter-hdr-outline",
+    {
+      "id": "45B91FE5-E3A6-44A3-B89E-5AE492BE231A",
+      "baseIconId": "999CF81E-71B7-48E1-8B8F-70FDE391F647",
+      "name": "image-filter-hdr-outline",
+      "codepoint": "F1C64",
+      "aliases": [
+        "mountain-outline",
+        "landscape-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Photography",
+        "Nature"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconImageFilterHdrOutlineComponent"
+    }
+  ],
+  [
     "image-filter-hdr",
     {
       "id": "999CF81E-71B7-48E1-8B8F-70FDE391F647",
@@ -78302,7 +79980,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.9.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Photography"
+      ],
       "author": "Colton Wiscombe",
       "componentName": "IconImageRemoveOutlineComponent"
     }
@@ -78315,7 +79995,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "image-remove",
       "codepoint": "F1418",
       "aliases": [],
-      "styles": [],
+      "styles": [
+        "remove"
+      ],
       "version": "5.1.45",
       "deprecated": false,
       "tags": [],
@@ -78840,14 +80522,68 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "information-box-outline",
+    {
+      "id": "AAB1D0C8-033F-4C5F-8ACD-6620947D9858",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-box-outline",
+      "codepoint": "F1C66",
+      "aliases": [
+        "info-box-outline"
+      ],
+      "styles": [
+        "box",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationBoxOutlineComponent"
+    }
+  ],
+  [
+    "information-box",
+    {
+      "id": "7B6B57AD-05FF-4D58-ADC5-EE9E2DAF5D53",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-box",
+      "codepoint": "F1C65",
+      "aliases": [
+        "info-box"
+      ],
+      "styles": [
+        "box"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationBoxComponent"
+    }
+  ],
+  [
     "information-off-outline",
     {
       "id": "25B8EEBF-60AA-422C-8E9C-E8D6004E9614",
       "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
       "name": "information-off-outline",
       "codepoint": "F178D",
-      "aliases": [],
-      "styles": [],
+      "aliases": [
+        "info-circle-off-outline",
+        "information-circle-off-outline",
+        "information-off-outline",
+        "info-off-outline"
+      ],
+      "styles": [
+        "circle",
+        "off",
+        "outline"
+      ],
       "version": "6.1.95",
       "deprecated": false,
       "tags": [],
@@ -78862,8 +80598,15 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
       "name": "information-off",
       "codepoint": "F178C",
-      "aliases": [],
-      "styles": [],
+      "aliases": [
+        "info-off",
+        "info-circle-off",
+        "information-circle-off"
+      ],
+      "styles": [
+        "circle",
+        "off"
+      ],
       "version": "6.1.95",
       "deprecated": false,
       "tags": [],
@@ -78886,13 +80629,254 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
         "about-circle-outline"
       ],
       "styles": [
+        "circle",
         "outline"
       ],
       "version": "1.5.54",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Settings"
+      ],
       "author": "Google",
       "componentName": "IconInformationOutlineComponent"
+    }
+  ],
+  [
+    "information-slab-box-outline",
+    {
+      "id": "996F0E18-7078-44A0-A0DC-F2A829210F07",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-slab-box-outline",
+      "codepoint": "F1C68",
+      "aliases": [
+        "info-slab-box-outline"
+      ],
+      "styles": [
+        "box",
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationSlabBoxOutlineComponent"
+    }
+  ],
+  [
+    "information-slab-box",
+    {
+      "id": "5E1C3338-5309-4631-A9A9-9D41E4CEC8A7",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-slab-box",
+      "codepoint": "F1C67",
+      "aliases": [
+        "info-slab-box"
+      ],
+      "styles": [
+        "box",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationSlabBoxComponent"
+    }
+  ],
+  [
+    "information-slab-circle-outline",
+    {
+      "id": "0A06A44E-09F4-491E-B221-24E401CA3DDB",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-slab-circle-outline",
+      "codepoint": "F1C6A",
+      "aliases": [
+        "info-slab-circle-outline"
+      ],
+      "styles": [
+        "circle",
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationSlabCircleOutlineComponent"
+    }
+  ],
+  [
+    "information-slab-circle",
+    {
+      "id": "7AF3BC52-D506-4CCB-A813-A7785CFD6524",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-slab-circle",
+      "codepoint": "F1C69",
+      "aliases": [
+        "info-slab-circle"
+      ],
+      "styles": [
+        "circle",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationSlabCircleComponent"
+    }
+  ],
+  [
+    "information-slab-symbol",
+    {
+      "id": "ACA42E0C-6EEF-47B6-8824-FD916C58E87F",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-slab-symbol",
+      "codepoint": "F1C6B",
+      "aliases": [
+        "info-slab-symbol"
+      ],
+      "styles": [
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationSlabSymbolComponent"
+    }
+  ],
+  [
+    "information-symbol",
+    {
+      "id": "EAA6E06D-B798-4198-BF74-3B31F564A807",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-symbol",
+      "codepoint": "F1C6C",
+      "aliases": [
+        "info-symbol"
+      ],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationSymbolComponent"
+    }
+  ],
+  [
+    "information-variant-box-outline",
+    {
+      "id": "4D7338FF-73D3-49EC-A9A8-070039557830",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-variant-box-outline",
+      "codepoint": "F1C6E",
+      "aliases": [
+        "info-variant-box-outline",
+        "information-serif-box-outline",
+        "info-serif-box-outline"
+      ],
+      "styles": [
+        "box",
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationVariantBoxOutlineComponent"
+    }
+  ],
+  [
+    "information-variant-box",
+    {
+      "id": "A146B034-84AF-47AD-BA0F-C2D779C95356",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-variant-box",
+      "codepoint": "F1C6D",
+      "aliases": [
+        "info-variant-box",
+        "information-serif-box",
+        "info-serif-box"
+      ],
+      "styles": [
+        "box",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationVariantBoxComponent"
+    }
+  ],
+  [
+    "information-variant-circle-outline",
+    {
+      "id": "1100F1C0-2FFF-49ED-99C3-AE0A2F0ECFF7",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-variant-circle-outline",
+      "codepoint": "F1C70",
+      "aliases": [
+        "information-serif-circle-outline",
+        "info-variant-circle-outline",
+        "info-serif-circle-outline"
+      ],
+      "styles": [
+        "circle",
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationVariantCircleOutlineComponent"
+    }
+  ],
+  [
+    "information-variant-circle",
+    {
+      "id": "5569AF9F-4D90-4D8B-91B3-EBBCFD5644AB",
+      "baseIconId": "2BC4A4B6-119B-4637-BF3D-1FB9394E1F38",
+      "name": "information-variant-circle",
+      "codepoint": "F1C6F",
+      "aliases": [
+        "information-serif-circle",
+        "info-serif-circle",
+        "info-variant-circle"
+      ],
+      "styles": [
+        "circle",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Settings"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInformationVariantCircleComponent"
     }
   ],
   [
@@ -78904,7 +80888,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F064E",
       "aliases": [
         "info-variant",
-        "about-variant"
+        "about-variant",
+        "information-serif-symbol",
+        "info-variant-symbol"
       ],
       "styles": [
         "variant"
@@ -78927,12 +80913,17 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
         "about",
         "information-circle",
         "info-circle",
-        "about-circle"
+        "about-circle",
+        "info"
       ],
-      "styles": [],
+      "styles": [
+        "circle"
+      ],
       "version": "1.5.54",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Settings"
+      ],
       "author": "Google",
       "componentName": "IconInformationComponent"
     }
@@ -79036,6 +81027,1142 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Google",
       "componentName": "IconInvertColorsComponent"
+    }
+  ],
+  [
+    "invoice-arrow-left-outline",
+    {
+      "id": "22F91964-3698-4604-8046-16C6535A5E95",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-arrow-left-outline",
+      "codepoint": "F1CD4",
+      "aliases": [],
+      "styles": [
+        "arrow",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceArrowLeftOutlineComponent"
+    }
+  ],
+  [
+    "invoice-arrow-left",
+    {
+      "id": "026E4532-5FE5-4DCA-B5D5-D376E23CB81A",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-arrow-left",
+      "codepoint": "F1CD3",
+      "aliases": [],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceArrowLeftComponent"
+    }
+  ],
+  [
+    "invoice-arrow-right-outline",
+    {
+      "id": "AC3398AB-FFFA-4339-B4D0-4C6C248FF1E6",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-arrow-right-outline",
+      "codepoint": "F1CD6",
+      "aliases": [],
+      "styles": [
+        "arrow",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceArrowRightOutlineComponent"
+    }
+  ],
+  [
+    "invoice-arrow-right",
+    {
+      "id": "E1DC2DB9-F684-45FC-A5A8-C83561497512",
+      "baseIconId": "E1DC2DB9-F684-45FC-A5A8-C83561497512",
+      "name": "invoice-arrow-right",
+      "codepoint": "F1CD5",
+      "aliases": [],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceArrowRightComponent"
+    }
+  ],
+  [
+    "invoice-check-outline",
+    {
+      "id": "8DCF92BA-E729-4B96-99B5-1B076D672002",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-check-outline",
+      "codepoint": "F1CD8",
+      "aliases": [],
+      "styles": [
+        "check",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceCheckOutlineComponent"
+    }
+  ],
+  [
+    "invoice-check",
+    {
+      "id": "0B1FB16F-0E5A-4F53-9F9C-B9A28217C254",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-check",
+      "codepoint": "F1CD7",
+      "aliases": [],
+      "styles": [
+        "check"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceCheckComponent"
+    }
+  ],
+  [
+    "invoice-clock-outline",
+    {
+      "id": "71498268-3E1E-4F4C-8510-4BA27D2F01F9",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-clock-outline",
+      "codepoint": "F1CDA",
+      "aliases": [
+        "invoice-scheduled-outline"
+      ],
+      "styles": [
+        "clock",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceClockOutlineComponent"
+    }
+  ],
+  [
+    "invoice-clock",
+    {
+      "id": "C6B8DF23-3526-4052-BB03-37F479F3B5B6",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-clock",
+      "codepoint": "F1CD9",
+      "aliases": [
+        "invoice-scheduled"
+      ],
+      "styles": [
+        "clock"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceClockComponent"
+    }
+  ],
+  [
+    "invoice-edit-outline",
+    {
+      "id": "1C785A7B-3E52-4C1A-A5DF-4F7CF6902041",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-edit-outline",
+      "codepoint": "F1CDC",
+      "aliases": [],
+      "styles": [
+        "edit",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceEditOutlineComponent"
+    }
+  ],
+  [
+    "invoice-edit",
+    {
+      "id": "6BAEBFB5-9221-4F2F-AF55-FF8FED5EB24C",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-edit",
+      "codepoint": "F1CDB",
+      "aliases": [],
+      "styles": [
+        "edit"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceEditComponent"
+    }
+  ],
+  [
+    "invoice-export-outline",
+    {
+      "id": "049C99EC-16C8-458C-ABE7-06B361BF05C7",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-export-outline",
+      "codepoint": "F1CDD",
+      "aliases": [
+        "invoice-outbound-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceExportOutlineComponent"
+    }
+  ],
+  [
+    "invoice-fast-outline",
+    {
+      "id": "F6879131-0B38-4FD5-86FF-2BF8BB5E43B2",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-fast-outline",
+      "codepoint": "F1CDF",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceFastOutlineComponent"
+    }
+  ],
+  [
+    "invoice-fast",
+    {
+      "id": "E624E5A6-B84B-46B3-8090-0326FDDDA78B",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-fast",
+      "codepoint": "F1CDE",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceFastComponent"
+    }
+  ],
+  [
+    "invoice-import-outline",
+    {
+      "id": "9B0C48A2-870D-43B1-9F73-57688AA5B888",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-import-outline",
+      "codepoint": "F1CE1",
+      "aliases": [
+        "invoice-inbound-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceImportOutlineComponent"
+    }
+  ],
+  [
+    "invoice-import",
+    {
+      "id": "28766FCF-01FB-43EF-AAE4-B78A644880AF",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-import",
+      "codepoint": "F1CE0",
+      "aliases": [
+        "invoice-inbound"
+      ],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceImportComponent"
+    }
+  ],
+  [
+    "invoice-list-outline",
+    {
+      "id": "9674415D-706E-4934-A03F-9AE29B24E3A9",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-list-outline",
+      "codepoint": "F1CE3",
+      "aliases": [
+        "invoice-line-items-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Shopping",
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceListOutlineComponent"
+    }
+  ],
+  [
+    "invoice-list",
+    {
+      "id": "3C7A28AA-E21B-4DCC-B6DF-4EBEF2A93C01",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-list",
+      "codepoint": "F1CE2",
+      "aliases": [
+        "invoice-line-items"
+      ],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceListComponent"
+    }
+  ],
+  [
+    "invoice-minus-outline",
+    {
+      "id": "7937AAEB-9FCA-4F50-81D9-8A3735A5248A",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-minus-outline",
+      "codepoint": "F1CE5",
+      "aliases": [],
+      "styles": [
+        "minus",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceMinusOutlineComponent"
+    }
+  ],
+  [
+    "invoice-minus",
+    {
+      "id": "5E6401D0-9CC0-4E04-B453-DCA43D3E1D0C",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-minus",
+      "codepoint": "F1CE4",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceMinusComponent"
+    }
+  ],
+  [
+    "invoice-multiple-outline",
+    {
+      "id": "16A5C1A4-ADE8-4F65-A02B-C02FFEA97241",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-multiple-outline",
+      "codepoint": "F1CE7",
+      "aliases": [],
+      "styles": [
+        "multiple",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceMultipleOutlineComponent"
+    }
+  ],
+  [
+    "invoice-multiple",
+    {
+      "id": "25C8CF6C-01BB-4E4A-A946-47A58A854957",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-multiple",
+      "codepoint": "F1CE6",
+      "aliases": [],
+      "styles": [
+        "multiple"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceMultipleComponent"
+    }
+  ],
+  [
+    "invoice-outline",
+    {
+      "id": "A7F61024-F5FD-4296-B956-A785D549814A",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-outline",
+      "codepoint": "F1CE8",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceOutlineComponent"
+    }
+  ],
+  [
+    "invoice-plus-outline",
+    {
+      "id": "889F97FC-E068-4E7A-BB6E-0F3428A13A21",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-plus-outline",
+      "codepoint": "F1CEA",
+      "aliases": [
+        "invoice-new-outline"
+      ],
+      "styles": [
+        "outline",
+        "plus"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoicePlusOutlineComponent"
+    }
+  ],
+  [
+    "invoice-plus",
+    {
+      "id": "8AEAA39A-29A9-4627-A0D0-49DD64922B55",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-plus",
+      "codepoint": "F1CE9",
+      "aliases": [
+        "invoice-new"
+      ],
+      "styles": [
+        "plus"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoicePlusComponent"
+    }
+  ],
+  [
+    "invoice-remove-outline",
+    {
+      "id": "C829B2D9-67A7-43E3-8D02-85C980F76BC5",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-remove-outline",
+      "codepoint": "F1CEC",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "remove"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceRemoveOutlineComponent"
+    }
+  ],
+  [
+    "invoice-remove",
+    {
+      "id": "19F2BEC0-0188-49C4-9125-7FD3F0C4A95B",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-remove",
+      "codepoint": "F1CEB",
+      "aliases": [],
+      "styles": [
+        "remove"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceRemoveComponent"
+    }
+  ],
+  [
+    "invoice-send-outline",
+    {
+      "id": "2A169211-E680-4D0C-B4C3-FDE388B98D06",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-send-outline",
+      "codepoint": "F1CEE",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "send"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceSendOutlineComponent"
+    }
+  ],
+  [
+    "invoice-send",
+    {
+      "id": "1AC4079F-A8A3-45CB-869D-97DDC3244BF8",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-send",
+      "codepoint": "F1CED",
+      "aliases": [],
+      "styles": [
+        "send"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceSendComponent"
+    }
+  ],
+  [
+    "invoice-text-arrow-left-outline",
+    {
+      "id": "1E12551C-392F-43A2-8C18-BFDBC24307A5",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-arrow-left-outline",
+      "codepoint": "F1CF1",
+      "aliases": [],
+      "styles": [
+        "arrow",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextArrowLeftOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-arrow-left",
+    {
+      "id": "FCBC1CC9-9072-43F1-9052-8EECCA0651C8",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-arrow-left",
+      "codepoint": "F1CF0",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextArrowLeftComponent"
+    }
+  ],
+  [
+    "invoice-text-arrow-right-outline",
+    {
+      "id": "1A05708B-7367-46CB-AD1C-5A17368799B7",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-arrow-right-outline",
+      "codepoint": "F1CF3",
+      "aliases": [],
+      "styles": [
+        "arrow",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Shopping",
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextArrowRightOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-arrow-right",
+    {
+      "id": "C8536EAF-FE1D-454E-97BB-EC76F0412B2A",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-arrow-right",
+      "codepoint": "F1CF2",
+      "aliases": [],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextArrowRightComponent"
+    }
+  ],
+  [
+    "invoice-text-check-outline",
+    {
+      "id": "E8737B18-7558-44E0-82F2-A625D4932D21",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-check-outline",
+      "codepoint": "F1CF5",
+      "aliases": [],
+      "styles": [
+        "check",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextCheckOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-check",
+    {
+      "id": "F5E98247-6372-4D39-B1F9-D8F81E2115B7",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-check",
+      "codepoint": "F1CF4",
+      "aliases": [],
+      "styles": [
+        "check"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextCheckComponent"
+    }
+  ],
+  [
+    "invoice-text-clock-outline",
+    {
+      "id": "957ED765-1CC2-4C07-959B-065465917872",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-clock-outline",
+      "codepoint": "F1CF7",
+      "aliases": [
+        "invoice-text-scheduled-outline"
+      ],
+      "styles": [
+        "clock",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextClockOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-clock",
+    {
+      "id": "52B9052B-EA7E-4016-9BBC-14FB91CE07EE",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-clock",
+      "codepoint": "F1CF6",
+      "aliases": [
+        "invoice-text-scheduled"
+      ],
+      "styles": [
+        "clock"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextClockComponent"
+    }
+  ],
+  [
+    "invoice-text-edit-outline",
+    {
+      "id": "7789587C-3400-47CB-8434-EBB26AE3BD3C",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-edit-outline",
+      "codepoint": "F1CF9",
+      "aliases": [],
+      "styles": [
+        "edit",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextEditOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-edit",
+    {
+      "id": "DAC9F8EF-8843-46DC-AA4B-AA9D8A02F1E4",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-edit",
+      "codepoint": "F1CF8",
+      "aliases": [],
+      "styles": [
+        "edit"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextEditComponent"
+    }
+  ],
+  [
+    "invoice-text-fast-outline",
+    {
+      "id": "A6C3518A-07AA-4637-A1FB-0CDEEF8981E9",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-fast-outline",
+      "codepoint": "F1CFB",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextFastOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-fast",
+    {
+      "id": "3835C129-9723-496D-8D1B-6C6C81430335",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-fast",
+      "codepoint": "F1CFA",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextFastComponent"
+    }
+  ],
+  [
+    "invoice-text-minus-outline",
+    {
+      "id": "813DEF4F-A57D-4166-B644-30740A64BCC3",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-minus-outline",
+      "codepoint": "F1CFD",
+      "aliases": [],
+      "styles": [
+        "minus",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextMinusOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-minus",
+    {
+      "id": "24F0C139-A431-4A41-894F-969DA6F77A07",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-minus",
+      "codepoint": "F1CFC",
+      "aliases": [],
+      "styles": [
+        "minus"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextMinusComponent"
+    }
+  ],
+  [
+    "invoice-text-multiple-outline",
+    {
+      "id": "3C8CE95D-FDAC-4ECB-B13E-82CAD7E152BC",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-multiple-outline",
+      "codepoint": "F1CFF",
+      "aliases": [],
+      "styles": [
+        "multiple",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextMultipleOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-multiple",
+    {
+      "id": "515AA743-71C7-4022-8E9E-E07B6D13FAFF",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-multiple",
+      "codepoint": "F1CFE",
+      "aliases": [],
+      "styles": [
+        "multiple"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextMultipleComponent"
+    }
+  ],
+  [
+    "invoice-text-outline",
+    {
+      "id": "CDF559C8-5851-4697-ACED-93B9E7BB0316",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-outline",
+      "codepoint": "F1D00",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-plus-outline",
+    {
+      "id": "2A2F9351-D61A-47D7-B215-5E68E343759A",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-plus-outline",
+      "codepoint": "F1D02",
+      "aliases": [
+        "invoice-text-new-outline"
+      ],
+      "styles": [
+        "outline",
+        "plus"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextPlusOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-plus",
+    {
+      "id": "828C93B1-47AD-4073-8B25-D56621FB50E7",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-plus",
+      "codepoint": "F1D01",
+      "aliases": [
+        "invoice-text-new"
+      ],
+      "styles": [
+        "plus"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextPlusComponent"
+    }
+  ],
+  [
+    "invoice-text-remove-outline",
+    {
+      "id": "532C4085-3DDA-4016-A948-0521EF1AD847",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-remove-outline",
+      "codepoint": "F1D04",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "remove"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextRemoveOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-remove",
+    {
+      "id": "65D1CF51-8AB2-4464-8773-D0BFA7794F96",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-remove",
+      "codepoint": "F1D03",
+      "aliases": [],
+      "styles": [
+        "remove"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextRemoveComponent"
+    }
+  ],
+  [
+    "invoice-text-send-outline",
+    {
+      "id": "14C8E4B1-6E67-427E-B5D1-D38149C69B49",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-send-outline",
+      "codepoint": "F1D06",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "send"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextSendOutlineComponent"
+    }
+  ],
+  [
+    "invoice-text-send",
+    {
+      "id": "BDE23082-797D-4914-B99F-DB5D12172C0D",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice-text-send",
+      "codepoint": "F1D05",
+      "aliases": [],
+      "styles": [
+        "send"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextSendComponent"
+    }
+  ],
+  [
+    "invoice-text",
+    {
+      "id": "06345293-B968-427B-BD74-719BD3F2E37B",
+      "baseIconId": "06345293-B968-427B-BD74-719BD3F2E37B",
+      "name": "invoice-text",
+      "codepoint": "F1CEF",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceTextComponent"
+    }
+  ],
+  [
+    "invoice",
+    {
+      "id": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "baseIconId": "5CE920A6-F65C-4EB4-8015-455032417296",
+      "name": "invoice",
+      "codepoint": "F1CD2",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconInvoiceComponent"
     }
   ],
   [
@@ -79212,6 +82339,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Google",
       "componentName": "IconIronComponent"
+    }
+  ],
+  [
+    "island-variant",
+    {
+      "id": "E449645E-ECE6-442D-AC75-D611FED70EF6",
+      "baseIconId": "A39024B8-5991-409C-8E68-DC9562D52F86",
+      "name": "island-variant",
+      "codepoint": "F1CC6",
+      "aliases": [],
+      "styles": [
+        "variant"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconIslandVariantComponent"
     }
   ],
   [
@@ -80645,7 +83790,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F09FB",
       "aliases": [
         "silverware-knife",
-        "cutlery-knife"
+        "cutlery-knife",
+        "utensils-knife"
       ],
       "styles": [],
       "version": "2.5.94",
@@ -81180,6 +84326,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Jeff Anders",
       "componentName": "IconLandPlotsCircleComponent"
+    }
+  ],
+  [
+    "land-plots-marker",
+    {
+      "id": "C0C79B16-C79F-430E-9C4F-6342B86421FB",
+      "baseIconId": "B6AD150F-5C19-421E-9A2A-D3F43F38D440",
+      "name": "land-plots-marker",
+      "codepoint": "F1C5D",
+      "aliases": [],
+      "styles": [
+        "marker"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Agriculture"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconLandPlotsMarkerComponent"
     }
   ],
   [
@@ -83881,6 +87047,61 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "link-circle-outline",
+    {
+      "id": "FB44C69D-EA72-40ED-BD30-D5AA9DF491C8",
+      "baseIconId": "462769C2-0A30-4B31-B66C-55168B10D705",
+      "name": "link-circle-outline",
+      "codepoint": "F1CAD",
+      "aliases": [],
+      "styles": [
+        "circle",
+        "outline"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconLinkCircleOutlineComponent"
+    }
+  ],
+  [
+    "link-circle",
+    {
+      "id": "066651C5-8C77-4952-94EA-260C497156BA",
+      "baseIconId": "462769C2-0A30-4B31-B66C-55168B10D705",
+      "name": "link-circle",
+      "codepoint": "F1CAC",
+      "aliases": [],
+      "styles": [
+        "circle"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconLinkCircleComponent"
+    }
+  ],
+  [
+    "link-edit",
+    {
+      "id": "E64CEF49-951E-4842-98DE-CBB615BFAB3A",
+      "baseIconId": "462769C2-0A30-4B31-B66C-55168B10D705",
+      "name": "link-edit",
+      "codepoint": "F1CAE",
+      "aliases": [],
+      "styles": [
+        "edit"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconLinkEditComponent"
+    }
+  ],
+  [
     "link-lock",
     {
       "id": "CDEA2CC8-FD08-49E6-AC29-A5DD70956C35",
@@ -85238,7 +88459,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "version": "1.5.54",
       "deprecated": false,
       "tags": [],
-      "author": "Austin Andrews",
+      "author": "Google",
       "componentName": "IconLoginComponent"
     }
   ],
@@ -85276,7 +88497,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "version": "1.5.54",
       "deprecated": false,
       "tags": [],
-      "author": "Austin Andrews",
+      "author": "Google",
       "componentName": "IconLogoutComponent"
     }
   ],
@@ -87461,6 +90682,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "memory-arrow-down",
+    {
+      "id": "6F7286C3-4653-4443-A5A4-400D42A101C5",
+      "baseIconId": "E404434E-17DB-4E90-9D97-5355258E1FCF",
+      "name": "memory-arrow-down",
+      "codepoint": "F1CA6",
+      "aliases": [
+        "chip-arrow-down"
+      ],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Irigoyen",
+      "componentName": "IconMemoryArrowDownComponent"
+    }
+  ],
+  [
     "memory",
     {
       "id": "E404434E-17DB-4E90-9D97-5355258E1FCF",
@@ -87526,6 +90767,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Colton Wiscombe",
       "componentName": "IconMenorahComponent"
+    }
+  ],
+  [
+    "menu-close",
+    {
+      "id": "04E66167-8706-4CEF-8748-63BDAAF0F19C",
+      "baseIconId": "0BD2CD08-CCFB-4EC3-B96D-08B0B8230A91",
+      "name": "menu-close",
+      "codepoint": "F1C90",
+      "aliases": [
+        "hamburger-close"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Navigation"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconMenuCloseComponent"
     }
   ],
   [
@@ -87616,7 +90877,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "0BD2CD08-CCFB-4EC3-B96D-08B0B8230A91",
       "name": "menu-open",
       "codepoint": "F0BAB",
-      "aliases": [],
+      "aliases": [
+        "hamburger-open"
+      ],
       "styles": [],
       "version": "3.0.39",
       "deprecated": false,
@@ -89593,7 +92856,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "1.9.32",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Battery",
         "Gaming / RPG",
@@ -89615,7 +92878,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "2.5.94",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Gaming / RPG",
         "Battery"
@@ -89636,7 +92899,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "1.9.32",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Battery",
         "Gaming / RPG"
@@ -89657,7 +92920,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "1.9.32",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Battery",
         "Gaming / RPG"
@@ -89678,7 +92941,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "1.9.32",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Battery",
         "Gaming / RPG"
@@ -89699,7 +92962,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "1.9.32",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Battery",
         "Gaming / RPG"
@@ -89739,7 +93002,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "3.6.95",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Gaming / RPG"
       ],
@@ -89761,7 +93024,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
         "off"
       ],
       "version": "1.5.54",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Gaming / RPG"
       ],
@@ -89779,7 +93042,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "3.6.95",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Gaming / RPG"
       ],
@@ -89799,7 +93062,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "styles": [],
       "version": "1.5.54",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [
         "Gaming / RPG"
       ],
@@ -90855,6 +94118,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "monitor-vertical",
+    {
+      "id": "1F476F4F-1689-4729-A5A5-A2BB1C49DC90",
+      "baseIconId": "35091AEB-2AF7-4F92-A249-2955F01404A3",
+      "name": "monitor-vertical",
+      "codepoint": "F1C33",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMonitorVerticalComponent"
+    }
+  ],
+  [
     "monitor",
     {
       "id": "35091AEB-2AF7-4F92-A249-2955F01404A3",
@@ -91476,6 +94755,40 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "mouse-left-click-outline",
+    {
+      "id": "093F05E0-B1F3-4FB5-911A-150B0D650857",
+      "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+      "name": "mouse-left-click-outline",
+      "codepoint": "F1D08",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMouseLeftClickOutlineComponent"
+    }
+  ],
+  [
+    "mouse-left-click",
+    {
+      "id": "9C22B401-B8A9-4D50-ADC1-8718F4EEC6E5",
+      "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+      "name": "mouse-left-click",
+      "codepoint": "F1D07",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMouseLeftClickComponent"
+    }
+  ],
+  [
     "mouse-move-down",
     {
       "id": "63EB8966-D3A4-40C1-BC5C-BD4B34069D17",
@@ -91537,6 +94850,74 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Austin Andrews",
       "componentName": "IconMouseOffComponent"
+    }
+  ],
+  [
+    "mouse-outline",
+    {
+      "id": "FBB4B2E3-3FF0-4CE4-92D4-264CA677C3D8",
+      "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+      "name": "mouse-outline",
+      "codepoint": "F1D09",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMouseOutlineComponent"
+    }
+  ],
+  [
+    "mouse-right-click-outline",
+    {
+      "id": "CCA2AA13-89C6-40A8-B250-DE5A91291F78",
+      "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+      "name": "mouse-right-click-outline",
+      "codepoint": "F1D0B",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMouseRightClickOutlineComponent"
+    }
+  ],
+  [
+    "mouse-right-click",
+    {
+      "id": "19E17A2B-77B3-4CD3-A608-33DDE11B9223",
+      "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+      "name": "mouse-right-click",
+      "codepoint": "F1D0A",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMouseRightClickComponent"
+    }
+  ],
+  [
+    "mouse-scroll-wheel",
+    {
+      "id": "64DC1183-E0CA-48D3-8937-D13478681BB3",
+      "baseIconId": "965CDBD7-9E52-4169-B363-E0428C75C19D",
+      "name": "mouse-scroll-wheel",
+      "codepoint": "F1D0C",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconMouseScrollWheelComponent"
     }
   ],
   [
@@ -93795,6 +97176,47 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "nature-outline",
+    {
+      "id": "EB1EF432-4028-4431-BED1-9E446BCFCA09",
+      "baseIconId": "C5FCAD4F-C7E6-4BDB-9F2F-A665CB68B7FD",
+      "name": "nature-outline",
+      "codepoint": "F1C71",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Nature"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconNatureOutlineComponent"
+    }
+  ],
+  [
+    "nature-people-outline",
+    {
+      "id": "2DE09F55-8A0A-4D95-BC0E-3D7C5E55D609",
+      "baseIconId": "C5FCAD4F-C7E6-4BDB-9F2F-A665CB68B7FD",
+      "name": "nature-people-outline",
+      "codepoint": "F1C72",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Account / User",
+        "Nature"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconNaturePeopleOutlineComponent"
+    }
+  ],
+  [
     "nature-people",
     {
       "id": "B0635A70-D2A9-41CE-82C6-3FB1D1D353B4",
@@ -93808,7 +97230,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "version": "1.5.54",
       "deprecated": false,
       "tags": [
-        "Account / User"
+        "Account / User",
+        "Nature"
       ],
       "author": "Google",
       "componentName": "IconNaturePeopleComponent"
@@ -93828,7 +97251,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "version": "1.5.54",
       "deprecated": false,
       "tags": [
-        "Nature"
+        "Nature",
+        "Agriculture"
       ],
       "author": "Google",
       "componentName": "IconNatureComponent"
@@ -97848,6 +101272,95 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "octagram-edit-outline",
+    {
+      "id": "02D856A6-74E6-41EA-8938-054DD39B627D",
+      "baseIconId": "455C8475-5555-49B7-825B-206581104AB2",
+      "name": "octagram-edit-outline",
+      "codepoint": "F1C35",
+      "aliases": [
+        "starburst-edit-outline"
+      ],
+      "styles": [
+        "edit",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconOctagramEditOutlineComponent"
+    }
+  ],
+  [
+    "octagram-edit",
+    {
+      "id": "7069C1C4-8C2E-4E67-B167-FA1A1FE61418",
+      "baseIconId": "455C8475-5555-49B7-825B-206581104AB2",
+      "name": "octagram-edit",
+      "codepoint": "F1C34",
+      "aliases": [
+        "starburst-edit"
+      ],
+      "styles": [
+        "edit"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconOctagramEditComponent"
+    }
+  ],
+  [
+    "octagram-minus-outline",
+    {
+      "id": "E11403C7-999F-4EEF-BD97-5598280C54A2",
+      "baseIconId": "455C8475-5555-49B7-825B-206581104AB2",
+      "name": "octagram-minus-outline",
+      "codepoint": "F1C37",
+      "aliases": [
+        "starburst-minus-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconOctagramMinusOutlineComponent"
+    }
+  ],
+  [
+    "octagram-minus",
+    {
+      "id": "FA0E4A6E-0AED-4C67-B4AD-B52CF53C6D92",
+      "baseIconId": "455C8475-5555-49B7-825B-206581104AB2",
+      "name": "octagram-minus",
+      "codepoint": "F1C36",
+      "aliases": [
+        "starburst-plus"
+      ],
+      "styles": [
+        "plus"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconOctagramMinusComponent"
+    }
+  ],
+  [
     "octagram-outline",
     {
       "id": "8316E0F1-5F66-4C4E-ACA8-EE61AD93A42A",
@@ -97867,6 +101380,47 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Austin Andrews",
       "componentName": "IconOctagramOutlineComponent"
+    }
+  ],
+  [
+    "octagram-plus-outline",
+    {
+      "id": "EC917461-058B-41D0-8BEA-FDB91DCCB63F",
+      "baseIconId": "8316E0F1-5F66-4C4E-ACA8-EE61AD93A42A",
+      "name": "octagram-plus-outline",
+      "codepoint": "F1C39",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "plus"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconOctagramPlusOutlineComponent"
+    }
+  ],
+  [
+    "octagram-plus",
+    {
+      "id": "DF81ADEE-1450-4D83-A54C-25D9868FCF3F",
+      "baseIconId": "455C8475-5555-49B7-825B-206581104AB2",
+      "name": "octagram-plus",
+      "codepoint": "F1C38",
+      "aliases": [
+        "starburst-plus"
+      ],
+      "styles": [
+        "plus"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconOctagramPlusComponent"
     }
   ],
   [
@@ -100426,6 +103980,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "passport-alert",
+    {
+      "id": "54BBE5BD-DFF9-41A9-A982-45DAF4B29DE4",
+      "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+      "name": "passport-alert",
+      "codepoint": "F1CB8",
+      "aliases": [],
+      "styles": [
+        "alert"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconPassportAlertComponent"
+    }
+  ],
+  [
     "passport-biometric",
     {
       "id": "86A974C4-6E5A-48F6-A3B9-35B3DCD1DE7A",
@@ -100441,6 +104013,96 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "GreenTurtwig",
       "componentName": "IconPassportBiometricComponent"
+    }
+  ],
+  [
+    "passport-cancel",
+    {
+      "id": "F8A93094-948E-4F4F-B616-3E20AAB8CA30",
+      "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+      "name": "passport-cancel",
+      "codepoint": "F1CB9",
+      "aliases": [],
+      "styles": [
+        "cancel"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconPassportCancelComponent"
+    }
+  ],
+  [
+    "passport-check",
+    {
+      "id": "EE9F9B1F-B218-457D-9008-F3B574C6D9B5",
+      "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+      "name": "passport-check",
+      "codepoint": "F1CBA",
+      "aliases": [],
+      "styles": [
+        "check"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconPassportCheckComponent"
+    }
+  ],
+  [
+    "passport-minus",
+    {
+      "id": "2B26DE7C-B15A-4F19-B7D8-37513184E8D8",
+      "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+      "name": "passport-minus",
+      "codepoint": "F1CBB",
+      "aliases": [],
+      "styles": [
+        "minus"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconPassportMinusComponent"
+    }
+  ],
+  [
+    "passport-plus",
+    {
+      "id": "7E0B87C0-4F09-4903-8D7E-9D8FD5E09315",
+      "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+      "name": "passport-plus",
+      "codepoint": "F1CBC",
+      "aliases": [],
+      "styles": [
+        "plus"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconPassportPlusComponent"
+    }
+  ],
+  [
+    "passport-remove",
+    {
+      "id": "616F54F4-F38D-4848-82F9-9D32D4F02D82",
+      "baseIconId": "31BE5768-FCE0-46D5-A20B-E8CBFED471E0",
+      "name": "passport-remove",
+      "codepoint": "F1CBD",
+      "aliases": [],
+      "styles": [
+        "remove"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconPassportRemoveComponent"
     }
   ],
   [
@@ -103375,6 +107037,51 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "pine-tree-variant-outline",
+    {
+      "id": "77B7101F-D4EC-4E5E-9BF0-F4C83A5FD10F",
+      "baseIconId": "F053196C-66BC-4D0D-B75F-24773CA618E5",
+      "name": "pine-tree-variant-outline",
+      "codepoint": "F1C74",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Places",
+        "Nature",
+        "Agriculture"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconPineTreeVariantOutlineComponent"
+    }
+  ],
+  [
+    "pine-tree-variant",
+    {
+      "id": "04EE87F5-A61D-4CD0-89E5-BE7032F07A00",
+      "baseIconId": "F053196C-66BC-4D0D-B75F-24773CA618E5",
+      "name": "pine-tree-variant",
+      "codepoint": "F1C73",
+      "aliases": [],
+      "styles": [
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Nature",
+        "Places",
+        "Agriculture"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconPineTreeVariantComponent"
+    }
+  ],
+  [
     "pine-tree",
     {
       "id": "F053196C-66BC-4D0D-B75F-24773CA618E5",
@@ -103681,6 +107388,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconPlaneTrainComponent"
+    }
+  ],
+  [
+    "play-box-edit-outline",
+    {
+      "id": "11C9308E-3310-49C4-90AF-79ECA629386A",
+      "baseIconId": "90AD6D2A-7986-49D0-8DA5-DC92F9F92A15",
+      "name": "play-box-edit-outline",
+      "codepoint": "F1C3A",
+      "aliases": [],
+      "styles": [
+        "box",
+        "edit",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Sintija",
+      "componentName": "IconPlayBoxEditOutlineComponent"
     }
   ],
   [
@@ -104577,6 +108304,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "pocket",
+    {
+      "id": "D4BAB490-2216-4AE7-8DBC-26F4B2F5F9AC",
+      "baseIconId": "D4BAB490-2216-4AE7-8DBC-26F4B2F5F9AC",
+      "name": "pocket",
+      "codepoint": "F1CBE",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Contributors",
+      "componentName": "IconPocketComponent"
+    }
+  ],
+  [
     "podcast",
     {
       "id": "56B37BA8-E973-4B53-812A-7F47BCFF217A",
@@ -105231,6 +108974,50 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Michael Richins",
       "componentName": "IconPowerOnComponent"
+    }
+  ],
+  [
+    "power-plug-battery-outline",
+    {
+      "id": "936AF163-1DC9-4F38-8B7E-5F165695F56C",
+      "baseIconId": "60E77DB8-2D58-462F-8512-41D9E0E42795",
+      "name": "power-plug-battery-outline",
+      "codepoint": "F1C3C",
+      "aliases": [
+        "battery-backup-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation",
+        "Battery"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconPowerPlugBatteryOutlineComponent"
+    }
+  ],
+  [
+    "power-plug-battery",
+    {
+      "id": "1F41CB15-B611-4FBF-A789-7A404C7D81D1",
+      "baseIconId": "60E77DB8-2D58-462F-8512-41D9E0E42795",
+      "name": "power-plug-battery",
+      "codepoint": "F1C3B",
+      "aliases": [
+        "battery-backup"
+      ],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Home Automation",
+        "Battery"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconPowerPlugBatteryComponent"
     }
   ],
   [
@@ -107099,6 +110886,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "progress-star-four-points",
+    {
+      "id": "C8BCB1CF-5259-4BC0-B368-4F5C2A3C194B",
+      "baseIconId": "FF05067C-B5B4-48B1-B63C-75D3CBB24E45",
+      "name": "progress-star-four-points",
+      "codepoint": "F1C3D",
+      "aliases": [
+        "progress-auto"
+      ],
+      "styles": [
+        "star"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconProgressStarFourPointsComponent"
+    }
+  ],
+  [
     "progress-star",
     {
       "id": "FF05067C-B5B4-48B1-B63C-75D3CBB24E45",
@@ -107114,6 +110921,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Teodor Sandu",
       "componentName": "IconProgressStarComponent"
+    }
+  ],
+  [
+    "progress-tag",
+    {
+      "id": "F4D4D0AF-A57E-475A-8596-D30A27DE8EE3",
+      "baseIconId": "F4D4D0AF-A57E-475A-8596-D30A27DE8EE3",
+      "name": "progress-tag",
+      "codepoint": "F1D0D",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconProgressTagComponent"
     }
   ],
   [
@@ -107905,8 +111728,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "2.4.85",
-      "deprecated": false,
-      "tags": [],
+      "deprecated": true,
+      "tags": [
+        "Brand / Logo"
+      ],
       "author": "Contributors",
       "componentName": "IconQiComponent"
     }
@@ -108116,6 +111941,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "queue-first-in-last-out",
+    {
+      "id": "7835022B-E173-4160-ADC0-20047213D506",
+      "baseIconId": "7835022B-E173-4160-ADC0-20047213D506",
+      "name": "queue-first-in-last-out",
+      "codepoint": "F1CAF",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "mschutti",
+      "componentName": "IconQueueFirstInLastOutComponent"
+    }
+  ],
+  [
     "quora",
     {
       "id": "F4C8FDC5-0F7D-4EDA-8242-B356F5E542A4",
@@ -108125,7 +111966,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "3.3.92",
-      "deprecated": false,
+      "deprecated": true,
       "tags": [],
       "author": "Contributors",
       "componentName": "IconQuoraComponent"
@@ -108536,6 +112377,29 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "radiobox-indeterminate-variant",
+    {
+      "id": "36F9BAE6-DB6B-4CE5-B7CA-B777ABA8CB1B",
+      "baseIconId": "10BF2326-3190-4C27-9040-E2F8F4961238",
+      "name": "radiobox-indeterminate-variant",
+      "codepoint": "F1C5E",
+      "aliases": [
+        "radio-button-indeterminate",
+        "radiobox-intermediate-variant"
+      ],
+      "styles": [
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Form"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconRadioboxIndeterminateVariantComponent"
+    }
+  ],
+  [
     "radiobox-marked",
     {
       "id": "BA101E5E-CDA9-45AA-B249-BD176AF11D95",
@@ -108921,6 +112785,47 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "receipt-clock-outline",
+    {
+      "id": "BE5F88B6-E3FF-48FC-91B1-1FD331F2E055",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-clock-outline",
+      "codepoint": "F1C3F",
+      "aliases": [
+        "receipt-pending"
+      ],
+      "styles": [
+        "clock",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptClockOutlineComponent"
+    }
+  ],
+  [
+    "receipt-clock",
+    {
+      "id": "74B3AD4D-BDC1-4C72-9151-54D295195D39",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-clock",
+      "codepoint": "F1C3E",
+      "aliases": [
+        "receipt-pending"
+      ],
+      "styles": [
+        "clock"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptClockComponent"
+    }
+  ],
+  [
     "receipt-outline",
     {
       "id": "179831B0-F175-4694-9313-3B745C133F96",
@@ -108938,9 +112843,130 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "1.5.54",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconReceiptOutlineComponent"
+    }
+  ],
+  [
+    "receipt-send-outline",
+    {
+      "id": "C09E8F37-086D-425D-9984-639C3251F340",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-send-outline",
+      "codepoint": "F1C41",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "send"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptSendOutlineComponent"
+    }
+  ],
+  [
+    "receipt-send",
+    {
+      "id": "21480B9D-5F5E-4899-823E-3ED8C14EB4F4",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-send",
+      "codepoint": "F1C40",
+      "aliases": [],
+      "styles": [
+        "send"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptSendComponent"
+    }
+  ],
+  [
+    "receipt-text-arrow-left-outline",
+    {
+      "id": "463BE742-B0EA-4291-BF09-8C782D3D833E",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-arrow-left-outline",
+      "codepoint": "F1C43",
+      "aliases": [],
+      "styles": [
+        "arrow",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextArrowLeftOutlineComponent"
+    }
+  ],
+  [
+    "receipt-text-arrow-left",
+    {
+      "id": "F52947B9-1965-4E8C-824E-6DC5AE572CB9",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-arrow-left",
+      "codepoint": "F1C42",
+      "aliases": [],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextArrowLeftComponent"
+    }
+  ],
+  [
+    "receipt-text-arrow-right-outline",
+    {
+      "id": "EA3FD778-1C6B-485F-942D-79BAC534BDB3",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-arrow-right-outline",
+      "codepoint": "F1C45",
+      "aliases": [],
+      "styles": [
+        "arrow",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextArrowRightOutlineComponent"
+    }
+  ],
+  [
+    "receipt-text-arrow-right",
+    {
+      "id": "E979926E-BF4E-4ECA-B5DF-500D1886425F",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-arrow-right",
+      "codepoint": "F1C44",
+      "aliases": [],
+      "styles": [
+        "arrow"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextArrowRightComponent"
     }
   ],
   [
@@ -108950,9 +112976,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text-check-outline",
       "codepoint": "F1A64",
-      "aliases": [
-        "invoice-check-outline"
-      ],
+      "aliases": [],
       "styles": [
         "check",
         "outline",
@@ -108960,7 +112984,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconReceiptTextCheckOutlineComponent"
     }
@@ -108972,18 +112998,100 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text-check",
       "codepoint": "F1A63",
-      "aliases": [
-        "invoice-check"
-      ],
+      "aliases": [],
       "styles": [
         "check",
         "variant"
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Simran",
       "componentName": "IconReceiptTextCheckComponent"
+    }
+  ],
+  [
+    "receipt-text-clock-outline",
+    {
+      "id": "8176D192-811A-4765-977D-28CA778B6FED",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-clock-outline",
+      "codepoint": "F1C47",
+      "aliases": [],
+      "styles": [
+        "clock",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextClockOutlineComponent"
+    }
+  ],
+  [
+    "receipt-text-clock",
+    {
+      "id": "A71F277A-8855-4E75-A0A9-1201E5384AFA",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-clock",
+      "codepoint": "F1C46",
+      "aliases": [],
+      "styles": [
+        "clock"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextClockComponent"
+    }
+  ],
+  [
+    "receipt-text-edit-outline",
+    {
+      "id": "4D213837-3918-4D9E-B4AC-C3CC9EE686FA",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-edit-outline",
+      "codepoint": "F1C49",
+      "aliases": [],
+      "styles": [
+        "edit",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextEditOutlineComponent"
+    }
+  ],
+  [
+    "receipt-text-edit",
+    {
+      "id": "22E18520-2818-4F5F-85CA-6CCEA382D333",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-edit",
+      "codepoint": "F1C48",
+      "aliases": [],
+      "styles": [
+        "edit"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextEditComponent"
     }
   ],
   [
@@ -108993,9 +113101,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text-minus-outline",
       "codepoint": "F1A66",
-      "aliases": [
-        "invoice-minus-outline"
-      ],
+      "aliases": [],
       "styles": [
         "minus",
         "outline",
@@ -109003,7 +113109,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconReceiptTextMinusOutlineComponent"
     }
@@ -109015,16 +113123,16 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text-minus",
       "codepoint": "F1A65",
-      "aliases": [
-        "invoice-minus"
-      ],
+      "aliases": [],
       "styles": [
         "minus",
         "variant"
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Simran",
       "componentName": "IconReceiptTextMinusComponent"
     }
@@ -109045,7 +113153,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.6.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Google",
       "componentName": "IconReceiptTextOutlineComponent"
     }
@@ -109058,8 +113168,6 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "receipt-text-plus-outline",
       "codepoint": "F1A68",
       "aliases": [
-        "invoice-plus",
-        "invoice-add",
         "receipt-text-add"
       ],
       "styles": [
@@ -109069,7 +113177,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconReceiptTextPlusOutlineComponent"
     }
@@ -109082,8 +113192,6 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "receipt-text-plus",
       "codepoint": "F1A67",
       "aliases": [
-        "invoice-plus",
-        "invoice-add",
         "receipt-text-add"
       ],
       "styles": [
@@ -109092,7 +113200,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Simran",
       "componentName": "IconReceiptTextPlusComponent"
     }
@@ -109104,9 +113214,7 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text-remove-outline",
       "codepoint": "F1A6A",
-      "aliases": [
-        "invoice-remove-outline"
-      ],
+      "aliases": [],
       "styles": [
         "outline",
         "remove",
@@ -109114,7 +113222,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconReceiptTextRemoveOutlineComponent"
     }
@@ -109126,18 +113236,59 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text-remove",
       "codepoint": "F1A69",
-      "aliases": [
-        "invoice-remove"
-      ],
+      "aliases": [],
       "styles": [
         "remove",
         "variant"
       ],
       "version": "6.7.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Simran",
       "componentName": "IconReceiptTextRemoveComponent"
+    }
+  ],
+  [
+    "receipt-text-send-outline",
+    {
+      "id": "1B042272-E659-42B1-ABDA-93DC9610463D",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-send-outline",
+      "codepoint": "F1C4B",
+      "aliases": [],
+      "styles": [
+        "outline",
+        "send"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextSendOutlineComponent"
+    }
+  ],
+  [
+    "receipt-text-send",
+    {
+      "id": "A305117A-42D3-4B2A-954E-9BAD0C500751",
+      "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
+      "name": "receipt-text-send",
+      "codepoint": "F1C4A",
+      "aliases": [],
+      "styles": [
+        "send"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconReceiptTextSendComponent"
     }
   ],
   [
@@ -109147,13 +113298,13 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "EEB46F1F-4996-4B65-A1C6-70DC4D38C34E",
       "name": "receipt-text",
       "codepoint": "F0449",
-      "aliases": [
-        "invoice"
-      ],
+      "aliases": [],
       "styles": [],
       "version": "1.5.54",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Google",
       "componentName": "IconReceiptTextComponent"
     }
@@ -109173,7 +113324,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "styles": [],
       "version": "2.1.19",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconReceiptComponent"
     }
@@ -109367,8 +113520,10 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [],
       "styles": [],
       "version": "4.3.95",
-      "deprecated": false,
-      "tags": [],
+      "deprecated": true,
+      "tags": [
+        "Brand / Logo"
+      ],
       "author": "Contributors",
       "componentName": "IconRedhatComponent"
     }
@@ -110381,7 +114536,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "7.1.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Edit / Modify"
+      ],
       "author": "Michael Irigoyen",
       "componentName": "IconRenameBoxOutlineComponent"
     }
@@ -110399,7 +114556,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "1.5.54",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Edit / Modify"
+      ],
       "author": "frankgrinaert",
       "componentName": "IconRenameBoxComponent"
     }
@@ -110417,7 +114576,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "version": "7.1.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Edit / Modify"
+      ],
       "author": "Google",
       "componentName": "IconRenameOutlineComponent"
     }
@@ -110433,7 +114594,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "styles": [],
       "version": "7.1.96",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Edit / Modify"
+      ],
       "author": "Google",
       "componentName": "IconRenameComponent"
     }
@@ -112433,6 +116596,28 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "router-network-wireless",
+    {
+      "id": "331F3E71-198F-4A8D-95B2-EA348B4F55C3",
+      "baseIconId": "8CCE5060-8983-4F75-B672-32B7599F1082",
+      "name": "router-network-wireless",
+      "codepoint": "F1C97",
+      "aliases": [
+        "wireless-router"
+      ],
+      "styles": [
+        "network"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Device / Tech"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconRouterNetworkWirelessComponent"
+    }
+  ],
+  [
     "router-network",
     {
       "id": "8CCE5060-8983-4F75-B672-32B7599F1082",
@@ -112802,6 +116987,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconRvTruckComponent"
+    }
+  ],
+  [
+    "sack-outline",
+    {
+      "id": "961ADDC5-B7FC-4CB8-8AD7-5F6293C5A973",
+      "baseIconId": "025FEA9C-17F9-4293-BD59-A8D53B7B4124",
+      "name": "sack-outline",
+      "codepoint": "F1C4C",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconSackOutlineComponent"
     }
   ],
   [
@@ -115021,6 +119224,88 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "send-variant-clock-outline",
+    {
+      "id": "7113E063-4446-4BC0-9981-1959374B11E2",
+      "baseIconId": "6791A1E4-DBF8-471C-AA27-0D4540A23678",
+      "name": "send-variant-clock-outline",
+      "codepoint": "F1C7F",
+      "aliases": [],
+      "styles": [
+        "clock",
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconSendVariantClockOutlineComponent"
+    }
+  ],
+  [
+    "send-variant-clock",
+    {
+      "id": "7A3CAC77-82FE-4D6A-B1D4-2421193D6670",
+      "baseIconId": "6791A1E4-DBF8-471C-AA27-0D4540A23678",
+      "name": "send-variant-clock",
+      "codepoint": "F1C7E",
+      "aliases": [],
+      "styles": [
+        "clock",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconSendVariantClockComponent"
+    }
+  ],
+  [
+    "send-variant-outline",
+    {
+      "id": "5F6A5994-FF0D-417E-9845-8BF18225CE3C",
+      "baseIconId": "6791A1E4-DBF8-471C-AA27-0D4540A23678",
+      "name": "send-variant-outline",
+      "codepoint": "F1C4E",
+      "aliases": [
+        "paper-airplane-variant-outline",
+        "paper-plane-variant-outline"
+      ],
+      "styles": [
+        "outline",
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Google",
+      "componentName": "IconSendVariantOutlineComponent"
+    }
+  ],
+  [
+    "send-variant",
+    {
+      "id": "EBB8E627-2F7B-4B33-94C6-440DD5C293E4",
+      "baseIconId": "6791A1E4-DBF8-471C-AA27-0D4540A23678",
+      "name": "send-variant",
+      "codepoint": "F1C4D",
+      "aliases": [
+        "paper-plane-variant",
+        "paper-airplane-variant"
+      ],
+      "styles": [
+        "variant"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Google",
+      "componentName": "IconSendVariantComponent"
+    }
+  ],
+  [
     "send",
     {
       "id": "6791A1E4-DBF8-471C-AA27-0D4540A23678",
@@ -115058,6 +119343,27 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "server-minus-outline",
+    {
+      "id": "1BFB5C91-DDE1-4902-A46F-27E80C5502E3",
+      "baseIconId": "692F85E2-79A8-4207-ACF7-DEC8D675BE38",
+      "name": "server-minus-outline",
+      "codepoint": "F1C98",
+      "aliases": [
+        "server-remove-outline"
+      ],
+      "styles": [
+        "minus",
+        "outline"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Kadensvw",
+      "componentName": "IconServerMinusOutlineComponent"
+    }
+  ],
+  [
     "server-minus",
     {
       "id": "09F53FF1-31D7-44CA-A00E-8CDDF55DB716",
@@ -115092,6 +119398,25 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "server-network-outline",
+    {
+      "id": "273CC459-F7EC-4296-9436-7BD1A8F805DF",
+      "baseIconId": "692F85E2-79A8-4207-ACF7-DEC8D675BE38",
+      "name": "server-network-outline",
+      "codepoint": "F1C99",
+      "aliases": [],
+      "styles": [
+        "network",
+        "outline"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Kadensvw",
+      "componentName": "IconServerNetworkOutlineComponent"
+    }
+  ],
+  [
     "server-network",
     {
       "id": "21F268BE-CC44-49CE-B59A-121D073ADBA5",
@@ -115121,6 +119446,45 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Austin Andrews",
       "componentName": "IconServerOffComponent"
+    }
+  ],
+  [
+    "server-outline",
+    {
+      "id": "02EE1E63-F47D-4BFE-8B6B-C8CB6DED24D3",
+      "baseIconId": "692F85E2-79A8-4207-ACF7-DEC8D675BE38",
+      "name": "server-outline",
+      "codepoint": "F1C9A",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Kadensvw",
+      "componentName": "IconServerOutlineComponent"
+    }
+  ],
+  [
+    "server-plus-outline",
+    {
+      "id": "9F0E48B8-D7E7-40D9-A985-76FBDC113F4D",
+      "baseIconId": "692F85E2-79A8-4207-ACF7-DEC8D675BE38",
+      "name": "server-plus-outline",
+      "codepoint": "F1C9B",
+      "aliases": [
+        "server-add-outline"
+      ],
+      "styles": [
+        "outline",
+        "plus"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Kadensvw",
+      "componentName": "IconServerPlusOutlineComponent"
     }
   ],
   [
@@ -115552,6 +119916,30 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Austin Andrews",
       "componentName": "IconShapeOvalPlusComponent"
+    }
+  ],
+  [
+    "shape-plus-outline",
+    {
+      "id": "3800615A-AAC6-43C8-9ACD-F8C7A0910C07",
+      "baseIconId": "B29246C8-6014-4019-8CCC-F803DBC0FA95",
+      "name": "shape-plus-outline",
+      "codepoint": "F1C4F",
+      "aliases": [
+        "shape-add-outline",
+        "category-plus-outline"
+      ],
+      "styles": [
+        "outline",
+        "plus"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconShapePlusOutlineComponent"
     }
   ],
   [
@@ -118141,7 +122529,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F0FDE",
       "aliases": [
         "silverware-shimmer",
-        "cutlery-clean"
+        "cutlery-clean",
+        "utensils-clean"
       ],
       "styles": [],
       "version": "4.0.96",
@@ -118164,7 +122553,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
         "restaurant",
         "fortnite",
         "cutlery-fork-knife",
-        "place-setting"
+        "place-setting",
+        "utensils-fork-knife"
       ],
       "styles": [],
       "version": "2.6.95",
@@ -118184,7 +122574,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "silverware-fork",
       "codepoint": "F04A4",
       "aliases": [
-        "cutlery-fork"
+        "cutlery-fork",
+        "utensils-fork"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -118204,7 +122595,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "silverware-spoon",
       "codepoint": "F04A5",
       "aliases": [
-        "cutlery-spoon"
+        "cutlery-spoon",
+        "utensils-spoon"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -118224,7 +122616,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "silverware-variant",
       "codepoint": "F04A6",
       "aliases": [
-        "cutlery-variant"
+        "cutlery-variant",
+        "utensils-variant"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -118248,7 +122641,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
         "local-dining",
         "restaurant-menu",
         "local-restaurant",
-        "cutlery"
+        "cutlery",
+        "utensils"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -120043,7 +124437,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "baseIconId": "5675A747-D467-473E-9A1D-1C61E1B5C619",
       "name": "snowflake",
       "codepoint": "F0717",
-      "aliases": [],
+      "aliases": [
+        "power-hibernate"
+      ],
       "styles": [],
       "version": "1.8.36",
       "deprecated": false,
@@ -121847,6 +126243,30 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "spider-outline",
+    {
+      "id": "52BB8EB9-6227-4EFD-BEFF-F20BE1670AEC",
+      "baseIconId": "BCDD4A6F-3064-4FF3-9172-0BBF8BED2D2C",
+      "name": "spider-outline",
+      "codepoint": "F1C75",
+      "aliases": [
+        "arachnid-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Animal",
+        "Holiday",
+        "Nature"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconSpiderOutlineComponent"
+    }
+  ],
+  [
     "spider-thread",
     {
       "id": "1F613123-9D4B-4C5A-84FB-F6B804BBFB21",
@@ -122157,6 +126577,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconSproutComponent"
+    }
+  ],
+  [
+    "square-circle-outline",
+    {
+      "id": "30192641-5B4D-4197-AEA1-499E250481FA",
+      "baseIconId": "5659F8EC-377D-41D2-AB3A-52DC40815DC7",
+      "name": "square-circle-outline",
+      "codepoint": "F1C50",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconSquareCircleOutlineComponent"
     }
   ],
   [
@@ -123018,6 +127456,96 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "star-four-points-box-outline",
+    {
+      "id": "CB3E6FC0-B9F1-4CAE-AAB9-72946D7E7064",
+      "baseIconId": "4F7E1FD5-FE11-4509-8253-D0B2EB7E3CFF",
+      "name": "star-four-points-box-outline",
+      "codepoint": "F1C52",
+      "aliases": [
+        "auto-box-outline"
+      ],
+      "styles": [
+        "box",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconStarFourPointsBoxOutlineComponent"
+    }
+  ],
+  [
+    "star-four-points-box",
+    {
+      "id": "2DF46C9A-650D-486D-B242-36AD17F82227",
+      "baseIconId": "4F7E1FD5-FE11-4509-8253-D0B2EB7E3CFF",
+      "name": "star-four-points-box",
+      "codepoint": "F1C51",
+      "aliases": [
+        "auto-box"
+      ],
+      "styles": [
+        "box"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconStarFourPointsBoxComponent"
+    }
+  ],
+  [
+    "star-four-points-circle-outline",
+    {
+      "id": "8393BD57-7249-40BE-B342-7CF50CAEAF29",
+      "baseIconId": "4F7E1FD5-FE11-4509-8253-D0B2EB7E3CFF",
+      "name": "star-four-points-circle-outline",
+      "codepoint": "F1C54",
+      "aliases": [
+        "auto-circle-outline"
+      ],
+      "styles": [
+        "circle",
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconStarFourPointsCircleOutlineComponent"
+    }
+  ],
+  [
+    "star-four-points-circle",
+    {
+      "id": "ABA4EF5C-BB66-4FEA-85A0-74ABAC4B0222",
+      "baseIconId": "4F7E1FD5-FE11-4509-8253-D0B2EB7E3CFF",
+      "name": "star-four-points-circle",
+      "codepoint": "F1C53",
+      "aliases": [
+        "auto-circle"
+      ],
+      "styles": [
+        "circle"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconStarFourPointsCircleComponent"
+    }
+  ],
+  [
     "star-four-points-outline",
     {
       "id": "F74484E2-76FB-4671-9960-AE18E95F04FA",
@@ -123035,6 +127563,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Irigoyen",
       "componentName": "IconStarFourPointsOutlineComponent"
+    }
+  ],
+  [
+    "star-four-points-small",
+    {
+      "id": "871110B6-9A38-4AEC-89DB-5570E84F109A",
+      "baseIconId": "4F7E1FD5-FE11-4509-8253-D0B2EB7E3CFF",
+      "name": "star-four-points-small",
+      "codepoint": "F1C55",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconStarFourPointsSmallComponent"
     }
   ],
   [
@@ -125778,6 +130324,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "swap-horizontal-hidden",
+    {
+      "id": "48B50BA6-7F60-49CC-A181-3E07607E9F4B",
+      "baseIconId": "D1E543C5-6ECA-43AA-B04D-438319BC5562",
+      "name": "swap-horizontal-hidden",
+      "codepoint": "F1D0E",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Arrow"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconSwapHorizontalHiddenComponent"
+    }
+  ],
+  [
     "swap-horizontal-variant",
     {
       "id": "23A48C18-9950-436D-9948-29EE7EE13054",
@@ -127674,6 +132238,43 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "tag-edit-outline",
+    {
+      "id": "5181F023-E6E2-424F-B35B-9E3219A0C25D",
+      "baseIconId": "0BE85AB2-0D51-411C-B119-789E9E317216",
+      "name": "tag-edit-outline",
+      "codepoint": "F1C9D",
+      "aliases": [],
+      "styles": [
+        "edit",
+        "outline"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconTagEditOutlineComponent"
+    }
+  ],
+  [
+    "tag-edit",
+    {
+      "id": "73C1CBA6-4848-4AE0-82D4-4A7FDD29F12C",
+      "baseIconId": "0BE85AB2-0D51-411C-B119-789E9E317216",
+      "name": "tag-edit",
+      "codepoint": "F1C9C",
+      "aliases": [],
+      "styles": [
+        "edit"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconTagEditComponent"
+    }
+  ],
+  [
     "tag-faces",
     {
       "id": "5DCE0F4D-F740-4D9A-AC93-281D3477E9AF",
@@ -127732,6 +132333,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Google",
       "componentName": "IconTagHeartComponent"
+    }
+  ],
+  [
+    "tag-hidden",
+    {
+      "id": "5BF0535D-7E79-4BE2-A3A7-E96E4B50E5A0",
+      "baseIconId": "0BE85AB2-0D51-411C-B119-789E9E317216",
+      "name": "tag-hidden",
+      "codepoint": "F1C76",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconTagHiddenComponent"
     }
   ],
   [
@@ -128826,6 +133443,26 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "tennis-ball-outline",
+    {
+      "id": "0B976004-97EB-486D-ACFF-5EBFED611D87",
+      "baseIconId": "DE92B1F1-31FB-4551-84A2-32F5B5D842EC",
+      "name": "tennis-ball-outline",
+      "codepoint": "F1C5F",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Sport"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconTennisBallOutlineComponent"
+    }
+  ],
+  [
     "tennis-ball",
     {
       "id": "DE92B1F1-31FB-4551-84A2-32F5B5D842EC",
@@ -128872,7 +133509,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "tent",
       "codepoint": "F0508",
       "aliases": [
-        "camping"
+        "camping",
+        "holiday"
       ],
       "styles": [],
       "version": "1.5.54",
@@ -129983,6 +134621,24 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "GreenTurtwig",
       "componentName": "IconThermostatBoxComponent"
+    }
+  ],
+  [
+    "thermostat-cog",
+    {
+      "id": "A22B6267-3CAE-44F8-A818-DF22A850E1B0",
+      "baseIconId": "628D16E2-7E57-43CA-8451-012B8AB852DA",
+      "name": "thermostat-cog",
+      "codepoint": "F1C80",
+      "aliases": [],
+      "styles": [
+        "cog"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconThermostatCogComponent"
     }
   ],
   [
@@ -132721,6 +137377,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "touch-text-outline",
+    {
+      "id": "1502E0E9-3E1B-43A4-A23A-B7A48BB68FDB",
+      "baseIconId": "1502E0E9-3E1B-43A4-A23A-B7A48BB68FDB",
+      "name": "touch-text-outline",
+      "codepoint": "F1C60",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jackie Yang",
+      "componentName": "IconTouchTextOutlineComponent"
+    }
+  ],
+  [
     "tournament",
     {
       "id": "E2623132-7507-4FFD-8382-E192DDC62D17",
@@ -133253,6 +137925,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Google",
       "componentName": "IconTrafficLightComponent"
+    }
+  ],
+  [
+    "train-bus",
+    {
+      "id": "6ABBD1FA-2A08-4361-94D0-9D4ECABE03D4",
+      "baseIconId": "B6E1232A-3A43-4200-BE34-1BC436B34BF1",
+      "name": "train-bus",
+      "codepoint": "F1CC7",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Richins",
+      "componentName": "IconTrainBusComponent"
     }
   ],
   [
@@ -133881,7 +138569,9 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "styles": [],
       "version": "4.1.95",
       "deprecated": false,
-      "tags": [],
+      "tags": [
+        "Banking"
+      ],
       "author": "Simran",
       "componentName": "IconTransferComponent"
     }
@@ -134407,18 +139097,48 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "treasure-chest-outline",
+    {
+      "id": "234877A7-B920-4592-8305-EFF7AFE3E13C",
+      "baseIconId": "A0678E6D-C3D3-42AB-B9E7-C1B12D368B70",
+      "name": "treasure-chest-outline",
+      "codepoint": "F1C77",
+      "aliases": [
+        "jewel-case-outline",
+        "jewelry-box-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Gaming / RPG",
+        "Lock",
+        "Shopping"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconTreasureChestOutlineComponent"
+    }
+  ],
+  [
     "treasure-chest",
     {
       "id": "A0678E6D-C3D3-42AB-B9E7-C1B12D368B70",
       "baseIconId": "A0678E6D-C3D3-42AB-B9E7-C1B12D368B70",
       "name": "treasure-chest",
       "codepoint": "F0726",
-      "aliases": [],
+      "aliases": [
+        "jewelry-box",
+        "jewel-case"
+      ],
       "styles": [],
       "version": "1.8.36",
       "deprecated": false,
       "tags": [
-        "Gaming / RPG"
+        "Gaming / RPG",
+        "Shopping",
+        "Lock"
       ],
       "author": "Alex Efremo",
       "componentName": "IconTreasureChestComponent"
@@ -134534,6 +139254,44 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Google",
       "componentName": "IconTrendingUpComponent"
+    }
+  ],
+  [
+    "triangle-down-outline",
+    {
+      "id": "ED39F995-49AB-4F63-9EEB-A5CAE8FDBE7F",
+      "baseIconId": "78EC62FE-EC63-407F-BCF3-92C441398DDA",
+      "name": "triangle-down-outline",
+      "codepoint": "F1C57",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconTriangleDownOutlineComponent"
+    }
+  ],
+  [
+    "triangle-down",
+    {
+      "id": "D7A8DF8D-096F-420D-B14C-5F523A5171CF",
+      "baseIconId": "78EC62FE-EC63-407F-BCF3-92C441398DDA",
+      "name": "triangle-down",
+      "codepoint": "F1C56",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Shape"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconTriangleDownComponent"
     }
   ],
   [
@@ -135044,6 +139802,44 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "truck-off-road-off",
+    {
+      "id": "654D7249-607D-453A-A514-5DB3F5FFF86F",
+      "baseIconId": "A0B91DEA-DB9A-4737-B2F4-26B805B88648",
+      "name": "truck-off-road-off",
+      "codepoint": "F1C9F",
+      "aliases": [],
+      "styles": [
+        "off"
+      ],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Transportation + Other"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconTruckOffRoadOffComponent"
+    }
+  ],
+  [
+    "truck-off-road",
+    {
+      "id": "BFDBF912-A62A-4E06-AC82-F0356BA02188",
+      "baseIconId": "A0B91DEA-DB9A-4737-B2F4-26B805B88648",
+      "name": "truck-off-road",
+      "codepoint": "F1C9E",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Transportation + Other"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconTruckOffRoadComponent"
+    }
+  ],
+  [
     "truck-outline",
     {
       "id": "09111629-7960-46BA-A70E-DC85128E4F4A",
@@ -135403,7 +140199,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F1542",
       "aliases": [
         "settings",
-        "equalizer"
+        "equalizer",
+        "slider"
       ],
       "styles": [
         "variant"
@@ -135427,7 +140224,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F1543",
       "aliases": [
         "settings-vertical",
-        "equalizer-vertical"
+        "equalizer-vertical",
+        "slider-vertical"
       ],
       "styles": [
         "variant"
@@ -135945,6 +140743,28 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "underwear-outline",
+    {
+      "id": "8A71EDC4-CA3C-450D-BD59-5915ADCDF9D4",
+      "baseIconId": "8A71EDC4-CA3C-450D-BD59-5915ADCDF9D4",
+      "name": "underwear-outline",
+      "codepoint": "F1D0F",
+      "aliases": [
+        "briefs-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Clothing"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconUnderwearOutlineComponent"
+    }
+  ],
+  [
     "undo-variant",
     {
       "id": "C262C766-4474-4BC5-AE66-23E5735F86F1",
@@ -136216,6 +141036,81 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "upload-box-outline",
+    {
+      "id": "D10BDD69-ACE3-4540-B224-EF52A45B1E99",
+      "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+      "name": "upload-box-outline",
+      "codepoint": "F1D11",
+      "aliases": [],
+      "styles": [
+        "box",
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconUploadBoxOutlineComponent"
+    }
+  ],
+  [
+    "upload-box",
+    {
+      "id": "CB709FD4-AB36-4A2E-BBBF-1EF20284F723",
+      "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+      "name": "upload-box",
+      "codepoint": "F1D10",
+      "aliases": [],
+      "styles": [
+        "box"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconUploadBoxComponent"
+    }
+  ],
+  [
+    "upload-circle-outline",
+    {
+      "id": "C06FD974-BAA7-4B63-9805-20AF826D94CD",
+      "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+      "name": "upload-circle-outline",
+      "codepoint": "F1D13",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Files / Folders"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconUploadCircleOutlineComponent"
+    }
+  ],
+  [
+    "upload-circle",
+    {
+      "id": "43E0329D-4E25-4E9B-AFCD-22EC47EEC2C5",
+      "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+      "name": "upload-circle",
+      "codepoint": "F1D12",
+      "aliases": [],
+      "styles": [
+        "circle"
+      ],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconUploadCircleComponent"
+    }
+  ],
+  [
     "upload-lock-outline",
     {
       "id": "AB9A1FD5-FAAC-4E6F-8B6D-D642D7066E96",
@@ -136254,6 +141149,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Michael Richins",
       "componentName": "IconUploadLockComponent"
+    }
+  ],
+  [
+    "upload-multiple-outline",
+    {
+      "id": "210F5799-334B-49ED-A906-F9C9C2239C62",
+      "baseIconId": "08F8FCE9-67A0-4696-9B83-0B1F11EA959E",
+      "name": "upload-multiple-outline",
+      "codepoint": "F1D14",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [],
+      "author": "Jeff Anders",
+      "componentName": "IconUploadMultipleOutlineComponent"
     }
   ],
   [
@@ -136381,6 +141292,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "tags": [],
       "author": "Google",
       "componentName": "IconUploadComponent"
+    }
+  ],
+  [
+    "usb-c-port",
+    {
+      "id": "BD068EC8-751D-46FA-9A88-4D6B9452720C",
+      "baseIconId": "BD068EC8-751D-46FA-9A88-4D6B9452720C",
+      "name": "usb-c-port",
+      "codepoint": "F1CBF",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Austin Andrews",
+      "componentName": "IconUsbCPortComponent"
     }
   ],
   [
@@ -138021,6 +142948,27 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "video-standard-definition",
+    {
+      "id": "EAEE3AC5-7C61-4513-9AB1-692E20E99F9E",
+      "baseIconId": "B1337ECC-EF1F-481B-9E75-6A8DB7A01BB9",
+      "name": "video-standard-definition",
+      "codepoint": "F1CA0",
+      "aliases": [
+        "video-sd",
+        "video-quality-sd"
+      ],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [
+        "Video / Movie"
+      ],
+      "author": "Michael Richins",
+      "componentName": "IconVideoStandardDefinitionComponent"
+    }
+  ],
+  [
     "video-switch-outline",
     {
       "id": "FF441E7F-8F7E-4B03-876E-FD65C2A847C9",
@@ -138566,6 +143514,22 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       ],
       "author": "Saulo Pratti",
       "componentName": "IconViewGalleryComponent"
+    }
+  ],
+  [
+    "view-grid-compact",
+    {
+      "id": "666FC249-C056-4311-8548-D7F648A53DD9",
+      "baseIconId": "666FC249-C056-4311-8548-D7F648A53DD9",
+      "name": "view-grid-compact",
+      "codepoint": "F1C61",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [],
+      "author": "Michael Irigoyen",
+      "componentName": "IconViewGridCompactComponent"
     }
   ],
   [
@@ -139776,6 +144740,46 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "wallet-bifold-outline",
+    {
+      "id": "63929062-6B7B-4683-BC95-376A60069FB2",
+      "baseIconId": "C5ABA786-D897-4770-AA78-CE4CB2A9230E",
+      "name": "wallet-bifold-outline",
+      "codepoint": "F1C59",
+      "aliases": [],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Banking",
+        "Currency"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconWalletBifoldOutlineComponent"
+    }
+  ],
+  [
+    "wallet-bifold",
+    {
+      "id": "41CE57C0-CF95-4033-AAC3-8EC7C35D7A86",
+      "baseIconId": "C5ABA786-D897-4770-AA78-CE4CB2A9230E",
+      "name": "wallet-bifold",
+      "codepoint": "F1C58",
+      "aliases": [],
+      "styles": [],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Currency",
+        "Banking"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconWalletBifoldComponent"
+    }
+  ],
+  [
     "wallet-giftcard",
     {
       "id": "0D4DD4F1-0915-4D3D-8F21-A96C2DDAF6E0",
@@ -140023,7 +145027,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "washing-machine-alert",
       "codepoint": "F11BC",
       "aliases": [
-        "laundry-room-alert"
+        "laundry-room-alert",
+        "washer-alert"
       ],
       "styles": [],
       "version": "4.5.95",
@@ -140044,7 +145049,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "name": "washing-machine-off",
       "codepoint": "F11BD",
       "aliases": [
-        "laundry-room-off"
+        "laundry-room-off",
+        "washer-off"
       ],
       "styles": [],
       "version": "4.5.95",
@@ -140066,7 +145072,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "aliases": [
         "laundrette",
         "local-laundry-service",
-        "laundry-room"
+        "laundry-room",
+        "washer"
       ],
       "styles": [],
       "version": "1.8.36",
@@ -141012,6 +146019,54 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "wave-arrow-down",
+    {
+      "id": "64FB01DD-0D60-4985-A367-02DAB7F66C59",
+      "baseIconId": "64FB01DD-0D60-4985-A367-02DAB7F66C59",
+      "name": "wave-arrow-down",
+      "codepoint": "F1CB0",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Contributors",
+      "componentName": "IconWaveArrowDownComponent"
+    }
+  ],
+  [
+    "wave-arrow-up",
+    {
+      "id": "DA42C58D-710B-45E1-BED5-B153143C6177",
+      "baseIconId": "DA42C58D-710B-45E1-BED5-B153143C6177",
+      "name": "wave-arrow-up",
+      "codepoint": "F1CB1",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Contributors",
+      "componentName": "IconWaveArrowUpComponent"
+    }
+  ],
+  [
+    "wave-undercurrent",
+    {
+      "id": "03713E38-C509-4252-B797-5899A04B8A43",
+      "baseIconId": "03713E38-C509-4252-B797-5899A04B8A43",
+      "name": "wave-undercurrent",
+      "codepoint": "F1CC0",
+      "aliases": [],
+      "styles": [],
+      "version": "7.3.67",
+      "deprecated": false,
+      "tags": [],
+      "author": "Austin Andrews",
+      "componentName": "IconWaveUndercurrentComponent"
+    }
+  ],
+  [
     "wave",
     {
       "id": "34D870BF-048B-44DF-93F9-8EBE7AF4C263",
@@ -141345,6 +146400,30 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "weather-hurricane-outline",
+    {
+      "id": "B5191E73-1C38-4B78-9018-F8216855C61A",
+      "baseIconId": "880967C4-85F9-4953-A6D0-73C9370BC987",
+      "name": "weather-hurricane-outline",
+      "codepoint": "F1C78",
+      "aliases": [
+        "cyclone-outline"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "version": "7.2.96",
+      "deprecated": false,
+      "tags": [
+        "Weather",
+        "Nature",
+        "Agriculture"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconWeatherHurricaneOutlineComponent"
+    }
+  ],
+  [
     "weather-hurricane",
     {
       "id": "880967C4-85F9-4953-A6D0-73C9370BC987",
@@ -141415,6 +146494,62 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
     }
   ],
   [
+    "weather-moonset-down",
+    {
+      "id": "1C42039C-3DC0-4D35-8E2B-C82F736F87CE",
+      "baseIconId": "5EF29669-A342-46D1-AE1B-47917E44311D",
+      "name": "weather-moonset-down",
+      "codepoint": "F1D16",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Weather"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconWeatherMoonsetDownComponent"
+    }
+  ],
+  [
+    "weather-moonset-up",
+    {
+      "id": "EC4BEC65-5A80-4123-BC47-A4E95524DCDD",
+      "baseIconId": "5EF29669-A342-46D1-AE1B-47917E44311D",
+      "name": "weather-moonset-up",
+      "codepoint": "F1D17",
+      "aliases": [
+        "moonrise"
+      ],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Weather"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconWeatherMoonsetUpComponent"
+    }
+  ],
+  [
+    "weather-moonset",
+    {
+      "id": "CDF0000C-8FE4-427A-843A-0833A9F2B099",
+      "baseIconId": "5EF29669-A342-46D1-AE1B-47917E44311D",
+      "name": "weather-moonset",
+      "codepoint": "F1D15",
+      "aliases": [],
+      "styles": [],
+      "version": "7.4.47",
+      "deprecated": false,
+      "tags": [
+        "Weather"
+      ],
+      "author": "Jeff Anders",
+      "componentName": "IconWeatherMoonsetComponent"
+    }
+  ],
+  [
     "weather-night-partly-cloudy",
     {
       "id": "19D690AD-38F9-45CF-A092-D62A53098A68",
@@ -141444,7 +146579,8 @@ export const MAT_ICONS_METADATA: IMatIconMetadataMap = new Map<string, IMatIconM
       "codepoint": "F0594",
       "aliases": [
         "moon-and-stars",
-        "night-sky"
+        "night-sky",
+        "weather-night-outline"
       ],
       "styles": [
         "outline"

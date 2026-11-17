@@ -1,4 +1,4 @@
-import { createComponent, IComponent, SVG_NAMESPACE_URI_CONSTANT, VirtualCustomElementNode } from '@lirx/dom';
+import { SVG_NAMESPACE_URI_CONSTANT, Component, input, Input, VirtualComponentNode } from '@lirx/dom';
 
 export type IIconComponentSize =
   | undefined
@@ -7,37 +7,34 @@ export type IIconComponentSize =
   | number
   ;
 
-export interface IIconComponentConfig {
-  element: SVGSVGElement;
-  inputs: [
-    ['size', IIconComponentSize],
-    ['color', string],
-  ],
+export interface IIconComponentData {
+  readonly size: Input<IIconComponentSize>;
+  readonly color: Input<string>;
 }
 
-export type IIconComponent = IComponent<IIconComponentConfig>;
+export type IIconComponent = Component<SVGSVGElement, IIconComponentData, object>;
 
 export function createIconComponent(
   name: string,
   svgContent: string,
   viewBox: string = '0 0 24 24',
 ): IIconComponent {
-  return createComponent<IIconComponentConfig>({
+  return new Component<SVGSVGElement, IIconComponentData, object>({
     name,
     extends: 'svg',
     namespaceURI: SVG_NAMESPACE_URI_CONSTANT,
-    inputs: [
-      ['size'],
-      ['color'],
-    ],
-    init: (node: VirtualCustomElementNode<IIconComponentConfig>): void => {
+    componentData: (): IIconComponentData => ({
+      size: input<IIconComponentSize>(),
+      color: input<string>(),
+    }),
+    templateData: (node: VirtualComponentNode<SVGSVGElement, IIconComponentData>): void => {
       const element: SVGSVGElement = node.elementNode;
 
       element.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
       element.setAttribute('viewBox', viewBox);
       element.innerHTML = svgContent;
 
-      const size$ = node.inputs.get$('size');
+      const size$ = node.input$('size');
 
       size$((value: IIconComponentSize): void => {
         if (
@@ -61,7 +58,7 @@ export function createIconComponent(
         }
       });
 
-      const color$ = node.inputs.get$('color');
+      const color$ = node.input$('color');
 
       color$((value: string): void => {
         element.setAttribute('fill', value);

@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-invoice-edit"
+ */
+
+export const IconInvoiceEditComponent = createIconComponent(
+  "icon-invoice-edit",
+  "<path d=\"M9.86 21.43 9 22l-3-2-3 2V3h18v7.2c-.9-.38-2-.2-2.76.55l-8.38 8.38v2.3m2-1.47L18 13.83l2.03 2.04L13.9 22h-2.04v-2.04m8.53-7.81a.24.24 0 0 0-.08-.06.497.497 0 0 0-.62.04l-.02.02-.98.98 2.04 2.04.98-.98c.2-.19.2-.52 0-.72l-1.32-1.32Z\"/>",
+  
+);

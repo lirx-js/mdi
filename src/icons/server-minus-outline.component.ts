@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-server-minus-outline"
+ */
+
+export const IconServerMinusOutlineComponent = createIconComponent(
+  "icon-server-minus-outline",
+  "<path d=\"M8 17h8v2H8v-2M2 5.6v4.8c0 .9.5 1.6 1.2 1.6h17.7c.6 0 1.2-.7 1.2-1.6V5.6C22 4.7 21.5 4 20.8 4H3.2C2.5 4 2 4.7 2 5.6M10 9V7H9v2h1M5 9h2V7H5v2m15 1H4V6h16v4Z\"/>",
+  
+);

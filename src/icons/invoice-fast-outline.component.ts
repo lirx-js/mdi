@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-invoice-fast-outline"
+ */
+
+export const IconInvoiceFastOutlineComponent = createIconComponent(
+  "icon-invoice-fast-outline",
+  "<path d=\"M19.5 19.32 22 21V5H7v16l2.5-1.68L12 21l2.5-1.68L17 21l2.5-1.68M20 7v9.57l-3 2.02-2.5-1.69-2.5 1.69-3-2.02V7h11M2 8c0-.6.4-1 1-1h2v2H3c-.6 0-1-.4-1-1m0 3c-.6 0-1 .4-1 1s.4 1 1 1h3v-2H2m-2 5c0-.6.4-1 1-1h4v2H1c-.6 0-1-.4-1-1Z\"/>",
+  
+);

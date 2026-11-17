@@ -12,13 +12,14 @@ import {
   share$$$,
   shareRL$$,
   single,
+  IUnsubscribeOfObservable,
 } from '@lirx/core';
 import {
   compileReactiveHTMLAsComponentTemplate,
   compileStyleAsComponentStyle,
-  createComponent,
-  VirtualCustomElementNode,
   VirtualDOMNode,
+  Component,
+  VirtualComponentNode,
 } from '@lirx/dom';
 import { IIconComponent } from '../create-icon-component';
 import { MAT_ICONS_METADATA } from '../icons/mat-icons-metadata.constant';
@@ -37,7 +38,7 @@ interface IIcon extends IMatIconMetadata {
   readonly $containerRef: IObserver<VirtualDOMNode>;
 }
 
-interface IData {
+interface ITemplateData {
   readonly $inputValue: IObserver<string>;
   readonly inputValue$: IObservable<string>;
   readonly icons$: IObservable<readonly IIcon[]>;
@@ -47,18 +48,13 @@ interface IData {
   readonly $onClickLoadMoreButton: IObserver<MouseEvent>;
 }
 
-export interface IMatIconsSearchComponentConfig {
-  element: HTMLElement;
-  data: IData;
-}
-
-export const MatIconsSearchComponent = createComponent<IMatIconsSearchComponentConfig>({
+export const MatIconsSearchComponent = new Component<HTMLElement, object, object>({
   name: 'mat-icons-search',
   template: compileReactiveHTMLAsComponentTemplate({
     html,
   }),
   styles: [compileStyleAsComponentStyle(style)],
-  init: (node: VirtualCustomElementNode<IMatIconsSearchComponentConfig>): IData => {
+  templateData: (node: VirtualComponentNode<HTMLElement, object>): ITemplateData => {
     /* LIMIT */
     const limitIncrement: number = 100;
     const [$limit, limit$, getLimit] = let$$<number>(limitIncrement);
@@ -77,7 +73,9 @@ export const MatIconsSearchComponent = createComponent<IMatIconsSearchComponentC
     const inputValueDebounced$ = shareRL$$(debounceTime$$(inputValue$, 500));
 
     // resets the limit when the input changes
-    node.onConnected$(inputValueDebounced$)(resetLimit);
+    node.onConnected((): IUnsubscribeOfObservable => {
+      return inputValueDebounced$(resetLimit);
+    });
 
     /* ICONS */
     const allIcons = Array.from(MAT_ICONS_METADATA.values())
@@ -88,7 +86,7 @@ export const MatIconsSearchComponent = createComponent<IMatIconsSearchComponentC
           //   .finally(() => new Promise(_ => setTimeout(_, 1000)))
           // return import(new URL(`../icons/${metadata.name}.component`, import.meta.url).href)
           return import('../icons/index')
-            .then(_ => _[metadata.componentName] as IIconComponent);
+            .then((mod: any) => mod[metadata.componentName]);
         };
 
         const $containerRef = (

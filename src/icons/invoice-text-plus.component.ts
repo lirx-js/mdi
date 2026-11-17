@@ -1,0 +1,12 @@
+
+import { createIconComponent } from '../create-icon-component';
+
+/**
+ * Component: "icon-invoice-text-plus"
+ */
+
+export const IconInvoiceTextPlusComponent = createIconComponent(
+  "icon-invoice-text-plus",
+  "<path d=\"M3 3v19l3-2 3 2 3-2 1.3.86c-.2-.58-.3-1.21-.3-1.86a6.005 6.005 0 0 1 8-5.66V3H3m14 4v2H7V7h10m-2 4v2H7v-2h8m3 4v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z\"/>",
+  
+);
